@@ -1,2 +1,9 @@
 *
 !.gitignore
+files/*
+files/_thumbs/*
+!files/.gitkeep
+!files/_thumbs/.gitkeep
+
+images/*
+!images/.gitkeep

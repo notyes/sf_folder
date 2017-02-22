@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* = = = = = *\
+	Sprite
+\* = = = = =  */
+
+/* Global Menu */
+[class*="spt-ic-GB"] { background-image:url(../img/header/globalMenu/csg-5314374b2c8c3.png); background-repeat:no-repeat; display:inline-block; overflow:hidden; text-indent:-999px;}
+.spt-ic-GB-Aa{ background-position: 0 0; width: 30px; height: 27px; } 
+.spt-ic-GB-Ab{ background-position: 0 -77px; width: 48px; height: 43px; } 
+.spt-ic-GB-Ac{ background-position: 0 -170px; width: 45px; height: 48px; } 
+/* Main Menu */
+[class*="spt-ic-MM"] { background-image:url(../img/header/mainMenu/csg-53142fa791093.png); background-repeat:no-repeat; display:inline-block; overflow:hidden; text-indent:-999px;}
+.spt-ic-MM-01-home { background-position: 0 0; width: 10px; height: 12px; } 
+.spt-ic-MM-02-townHouse { background-position: 0 -62px; width: 15px; height: 12px; } 
+.spt-ic-MM-03-condo { background-position: 0 -124px; width: 9px; height: 13px; } 
+.spt-ic-MM-04-Find-PJ { background-position:0 -167px; width:21px; height: 29px;  } 
+.spt-ic-MM-05-DD-PJ { background-position:0 -272px; width:26px; height: 25px;  } 
+.spt-ic-MM-06-DD-Price { background-position:0 -240px; width:26px; height: 25px;  } 
+.spt-ic-MM-07-DD-Locate { background-position:0 -208px; width:26px; height: 25px;  } 
+
+/* Main Menu Dropdown */
+[class*="spt-ic-A"] { background-image:url(../img/header/dropdowMenu/csg-53106275e7271.png); background-repeat:no-repeat; width: 55px; height: 55px; display:inline-block;}
+.spt-ic-Aa{ background-position: 0 -120px;} 
+a:hover .spt-ic-Aa { background-position: 0 -60px; } 
+a:active .spt-ic-Aa { background-position: 0 0; } 
+.spt-ic-Ab{ background-position: 0 -300px;} 
+a:hover .spt-ic-Ab { background-position: 0 -240px;} 
+a:active .spt-ic-Ab { background-position: 0 -180px;} 
+.spt-ic-Ac{ background-position: 0 -480px;} 
+a:hover .spt-ic-Ac{ background-position: 0 -420px;} 
+a:active .spt-ic-Ac { background-position: 0 -360px;} 
+
+
+/* Footer Global */
+[class*="spt-ps-ic-FT-gb-4S"] { background-image:url(../img/footer/csg-53157acf26d51.png); background-repeat:no-repeat; display:inline-block; overflow:hidden; text-indent:-999px;}
+.spt-ps-ic-FT-gb-4S-A{ background-position: 0 0; width: 58px; height: 58px; } 
+.spt-ps-ic-FT-gb-4S-B{ background-position: 0 -108px; width: 58px; height: 58px; } 
+.spt-ps-ic-FT-gb-4S-C{ background-position: 0 -216px; width: 58px; height: 58px; } 
+.spt-ps-ic-FT-gb-4S-D{ background-position: 0 -324px; width: 58px; height: 58px; } 

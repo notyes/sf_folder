@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.col-centered{margin-left: 25%;}
+.make-an-appointment-page .col-centered{margin-left: 33%}
+.PNM-finance-collapse .panel-heading{position: static;}
+.btn-register-submit{max-height: 34px;background-repeat: no-repeat;}
+.top.PNM-MainNav ul li.active:after{content: "\e078";bottom: -3px}
+.PNM-MainNav .PNM-brand a{z-index: 58}
+
+.ps-KS-hd-global-SaT { float:right !important;}
+.ps-KS-hd-global-SaT li { height:80px; padding:20px 5px 5px;}
+.ps-KS-hd-global-Tel { display:block; margin-top:9px;}

@@ -1,0 +1,161 @@
+<style>
+@page 
+    {
+        size: auto;   /* auto is the initial valuexx */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+}
+
+.SectionBorder {
+  border: 1px solid #000;
+}
+
+.SectionHeader {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #CCC;
+  text-align: center;
+}
+.BorderLeftTopRight {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-color: #000;
+  border-right-color: #000;
+  border-left-color: #000;
+}
+.SpaceLR {
+  width: 15px;
+}
+
+.PageHeader {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 18px;
+  font-weight: bold;
+}
+body {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 16px;
+  background-color: #FFF;
+}
+.NormalHeader{
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 16px;
+}
+.Normal{
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 14px;
+}
+td {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 16px;
+}
+.CollonSpace {
+  width: 30px;
+}
+.UnderLine {
+  border-bottom-width: 1px;
+  border-bottom-style: double;
+  border-bottom-color: #000;
+}
+.UnderLineDot {
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #000;
+}
+.Border1px {
+  border: 1px solid #000;
+}
+.BorderRight {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #000;
+}
+.BorderBottom {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000;
+}
+
+
+.BoderLeftTop {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-top-style: double;
+  border-left-style: double;
+  border-top-color: #000;
+  border-left-color: #000;
+}
+.BorderTop {
+  border-top-width: 1px;
+  border-top-style: double;
+  border-top-color: #000;
+}
+.BorderLeft {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #000;
+}
+.Padding0 {
+  padding: 0px;
+}
+.TDCheckBox {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  border: 2px solid #000;
+  font-size: 16px;
+}
+@media print {
+
+#divDrag0,
+#tab,
+form, 
+a,
+.picture,
+.rightcontent,
+.entryfooter, 
+.printHide {
+  display: none;
+}
+body {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 16px;
+}
+.Picture {
+  width: 100px;
+}
+.PictureTD {
+  width: 120px;
+  height: 150px;
+}
+td {
+  font-family: "Microsoft Sans Serif", "MS Serif", "Tahoma";
+  font-size: 11px;
+}
+th {
+  font-family: "Microsoft Sans Serif", "MS Serif", "Tahoma";
+  font-size: 11px;
+}
+.PageHeader {
+  font-family: "Microsoft Sans Serif", "MS Serif";
+  font-size: 12px;
+  font-weight: bold;
+}
+}
+.HideBorderLeft {
+  border-left-style: none;
+}
+.HideBorderLeftRight {
+  border-left-style: none;
+  border-right-style: none;
+}
+.HideBorderRight {
+  border-left-style: none;
+  border-right-style: none;
+}
+table {
+  background-color: #FFF;
+}
+</style>

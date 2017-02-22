@@ -1,0 +1,47 @@
+#print {font-family:"Microsoft Sans Serif", "MS Serif", "Tahoma"}
+.SectionBorder {border: 1px solid #000}
+.SectionHeader {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #CCC;
+	text-align: center;
+}
+.BorderLeftTopRight {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-left-color: #000;
+}
+.SpaceLR {width: 14px}
+.PageHeader {font-size: 16px; font-weight: bold}
+body {font-size: 14px; background-color: #FFF}
+.NormalHeader{font-size: 14px}
+td {font-size: 14px}
+.CollonSpace {width: 30px}
+.UnderLine {border-bottom-width: 1px; border-bottom-style: double; border-bottom-color: #000}
+.UnderLineDot {border-bottom: 1px dotted #000}
+.Border1px {border: 1px solid #000}
+.BorderRight {border-right: 1px solid #000}
+.BoderLeftTop {
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: double;
+	border-left-style: double;
+	border-top-color: #000;
+	border-left-color: #000;
+}
+.BorderTop {border-top: 1px double #000}
+.BorderLeft {border-left: 1px solid #000}
+.Padding0 {padding: 0px}
+.TDCheckBox {border: 2px solid #000; font-size: 14px}
+table {background-color: #FFF}
+@media print {
+	#print {font-size: 14px}
+	td {font-size: 10px}
+	th {font-size: 10px}
+}

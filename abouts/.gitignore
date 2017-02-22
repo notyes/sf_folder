@@ -1,10 +1,14 @@
 # Ignore everything
 *
+/files/*
+/files/_thumbs/*
 
-# But not these files...
-!.gitignore
-
-# etc...
+/images/*
+/images/_thumbs/*
 
 # ...even if they are in subdirectories
 !*/
+!/files/.gitkeep
+!/files/_thumbs/.gitkeep
+!/images/.gitkeep
+!/images/_thumbs/.gitkeep

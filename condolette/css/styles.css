@@ -1,0 +1,643 @@
+body { font-family: Tahoma, Geneva, sans-serif; margin-bottom: 300px; }
+
+/* mobile devices */
+@media (max-width: 991px) { body { margin-bottom: 500px; } }
+@media (max-width: 767px) { body { margin-bottom: 760px; } }
+/* DB Gill Siam font */
+.ff-dbGill-lighIt { font-family: db_gill_siam_xlightit; }
+
+/* DB Gill Siam - light italic */
+.ff-dbGill-b, .ps-custom .list-items h3.section-title { font-family: db_gill_siam_xbold; }
+
+/* DB Gill Siam - bold */
+.ff-dbGill-bIt { font-family: db_gill_siam_xboldit; }
+
+/* DB Gill Siam - bold italic */
+.ff-dbGill-r, .ps-custom .breadcrumbWrap, .ps-custom .masterHead .main-menu a, .ps-custom .searchBox, .ps-custom .footer-icons a, .ps-custom .main-content, .ps-custom.project-location-page .map-button .btn { font-family: db_gill_siam_xregular; }
+
+/* DB Gill Siam - regular */
+/* override header - footer */
+.topPanelContainer { position: relative; z-index: 999; }
+.topPanelContainer .ps-KS-hd { background-image: none; margin: 0; padding: 0; }
+.topPanelContainer .ps-KS-hd-main { display: none; }
+.topPanelContainer .navbar-toggle { visibility: hidden; }
+.topPanelContainer .ps-KS-hd-logo { background-size: 55px 70px; height: 70px; width: 55px; top: 10px; }
+.topPanelContainer .navbar.navbar-default { background-color: transparent; }
+
+.ps-custom-social-icon { min-height: 83px; }
+.ps-custom-social-icon .fb-like-box { padding: 5px; }
+
+@media (max-width: 767px) { .topPanelContainer .ps-KS-hd-global-SaT { margin-right: 0; }
+  .topPanelContainer .ps-KS-hd-logo { background-size: 47px 60px; height: 60px; width: 50px; top: 0; } }
+.topPanelContainer { background: url(../img/condolette/db_line.png) repeat-x bottom left; min-height: 87px; padding-bottom: 3px; }
+
+#footer .ps-FT-gb-wrap { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+
+/* end - override header - footer */
+.modal-backdrop.in { opacity: 0.9; filter: Alpha(opacity=90); }
+
+.ps-custom-modal { font-family: db_gill_siam_xregular; /* all */ }
+.ps-custom-modal .modal-content { border-radius: 0; }
+.ps-custom-modal .modal-header { color: #1D1D1B; }
+.ps-custom-modal .modal-header h3 { margin: 0; }
+.ps-custom-modal .close { color: #1D1D1B; text-shadow: none; opacity: 1; filter: alpha(opacity=100); }
+.ps-custom-modal .modal-body { font-size: 14px; color: #333; }
+.ps-custom-modal .modal-body a { color: #1D1D1B; }
+.ps-custom-modal .modal-footer { border: none; margin-top: 0; }
+.ps-custom-modal .form-group .filter-option { color: #1D1D1B; }
+.ps-custom-modal .form-group textarea, .ps-custom-modal .form-group input { border-radius: 0 !important; }
+.ps-custom-modal .form-control::-moz-placeholder { color: #1d1d1b; opacity: 1; }
+.ps-custom-modal .form-control:-ms-input-placeholder { color: #1d1d1b; }
+.ps-custom-modal .form-control::-webkit-input-placeholder { color: #1d1d1b; }
+.ps-custom-modal .btn { color: #fff; background-color: #7A7879; border-radius: 0; border: 0; }
+.ps-custom-modal .btn-primary { color: #fff; background-color: #000; }
+
+#ps-image-box .modal-header { border-bottom: 0; }
+
+#ps-finance-box .finance-calc-btn { padding: 0; line-height: 68px; background: url(../img/condolette/btn-mortgages.png) repeat left top; width: 100%; margin: 6px 0; font-size: 16px; font-family: db_gill_siam_xregular; }
+#ps-finance-box .modal-header { border: 0; padding: 0; }
+#ps-finance-box .modal-header .close { margin-top: 0; color: #fff; bottom: 0px; position: relative; z-index: 99; }
+#ps-finance-box .modal-body { padding: 5px; }
+#ps-finance-box .modal-content { box-shadow: none; background-color: transparent; border: 0; }
+#ps-finance-box .finance-calc { font-family: db_gill_siam_xregular; color: #fff; padding-top: 10px; }
+#ps-finance-box .finance-calc .note { font-weight: bold; }
+#ps-finance-box .finance-calc .asterisk { color: #A8A8A8; font-size: 12px; }
+#ps-finance-box .finance-calc .bootstrap-select { width: 180px !important; }
+#ps-finance-box .finance-calc .bootstrap-select .btn { margin: 0; background: #fff; }
+#ps-finance-box .finance-calc input.form-control { width: 180px; display: inline-block; text-align: right; }
+#ps-finance-box .finance-calc input.form-control[readonly] { background: #7A7879; color: #fff; }
+#ps-finance-box .finance-calc span.unit { padding-left: 30px; }
+#ps-finance-box .finance-calc label { font-weight: normal; }
+#ps-finance-box .finance-calc .btn-primary, #ps-finance-box .finance-calc .btn { margin: 10px 0; padding: 5px 10px; display: block; }
+#ps-finance-box .finance-calc .btn { color: #fff; background-color: #7A7879; }
+#ps-finance-box .finance-calc .btn-primary { color: #fff; background-color: #000; }
+#ps-finance-box #finance-consult-loan .btn-primary, #ps-finance-box #finance-consult-loan .btn { color: #fff; background-color: #7A7879; display: inline-block; }
+#ps-finance-box #finance-consult-loan .btn-calculate { background-color: #fff; color: #4B4B4B; display: block; width: 250px; }
+
+.ps-custom { /* custom */ /* helper */ /* override bootstrap */ /* override bootstrap */ /* bootstrap dropdown */ /* end - bootstrap dropdown */ /* end - override bootstrap */ /* override bxslider */ /* end - override bxslider */ /* gallery */ /* header */ /* end - header */ /* search box */ /* end - searchBox */ /* list-item */ /* end - list-item */ /* footer icon */ /* end - footer icon*/ /* page section */ /* end - page section */ }
+.ps-custom .nopad { padding-left: 0; padding-right: 0; }
+.ps-custom .nopad-left { padding-left: 0; }
+.ps-custom .nopad-right { padding-right: 0; }
+.ps-custom .padding { padding: 12.5px; }
+.ps-custom .smallpad { padding: 3px; }
+.ps-custom .h-f-s { visibility: hidden; width: 0.1px; height: 0.1px; overflow: hidden; text-indent: -2000px; }
+.ps-custom .form-control::-moz-placeholder { color: #999; opacity: 1; }
+.ps-custom .form-control:-ms-input-placeholder { color: #999; }
+.ps-custom .form-control::-webkit-input-placeholder { color: #999; }
+.ps-custom .bootstrap-select .btn:focus { outline: none !important; }
+.ps-custom a { outline: 0 !important; }
+.ps-custom a:active { outline: none !important; }
+.ps-custom a:hover { color: #999; }
+.ps-custom a:focus { -moz-outline-style: none !important; }
+.ps-custom a[href^=tel]{color:inherit;text-decoration:none;}
+.ps-custom .js-login { text-decoration: underline; }
+.ps-custom .icon-calc, .ps-custom .icon-consult { display: inline-block; vertical-align: middle; margin-right: 5px; }
+.ps-custom .icon-calc { background: url(../img/condolette/btn-calc.png) no-repeat left top; width: 17px; height: 23px; }
+.ps-custom .icon-consult { background: url(../img/condolette/btn-consult.png) no-repeat left top; width: 20px; height: 22px; }
+.ps-custom .icon-calc-big, .ps-custom .icon-calc-loan-big, .ps-custom .icon-consult-big { display: inline-block; vertical-align: middle; margin-right: 5px; }
+.ps-custom .icon-calc-big { background: url(../img/condolette/calc-big.png) no-repeat left top; width: 29px; height: 38px; }
+.ps-custom .icon-calc-loan-big { background: url(../img/condolette/calc-loan-big.png) no-repeat left top; width: 51px; height: 54px; }
+.ps-custom .icon-consult-big { background: url(../img/condolette/consult-loan-big.png) no-repeat left top; width: 43px; height: 48px; }
+.ps-custom .bootstrap-select.open, .ps-custom .bootstrap-select.btn-group { margin: 0; width: 100% !important; }
+.ps-custom .bootstrap-select.open a, .ps-custom .bootstrap-select.btn-group a { color: #000; }
+.ps-custom .bootstrap-select.open .dropdown-menu, .ps-custom .bootstrap-select.btn-group .dropdown-menu { text-align: left; }
+.ps-custom .bootstrap-select.open .btn, .ps-custom .bootstrap-select.btn-group .btn { border: 2px solid #7A7879; border-radius: 0 !important; padding: 4px 10px; line-height: 21px; padding-right: 30px; background: #fff; color: #211E1F; font-size: inherit; }
+.ps-custom .bootstrap-select.open .btn .filter-option, .ps-custom .bootstrap-select.btn-group .btn .filter-option { line-height: 23px; }
+.ps-custom .bootstrap-select.open .btn .caret, .ps-custom .bootstrap-select.btn-group .btn .caret { background: url(../img/condolette/caret.png) no-repeat center center; width: 16px; height: 16px; display: block; border: none; top: 8px; right: 5px; }
+.ps-custom .bootstrap-select.open .dropdown-menu, .ps-custom .bootstrap-select.btn-group .dropdown-menu { font-size: inherit; text-align: left; }
+.ps-custom .form-group-inline { margin-bottom: 15px; }
+.ps-custom .form-group-inline .bootstrap-select { margin: 0; }
+.ps-custom .form-group .bootstrap-select { width: 100% !important; margin: 0; }
+.ps-custom .form-group .captcha { margin-bottom: 15px; }
+.ps-custom .form-group textarea, .ps-custom .form-group input { border-radius: 0 !important; border: 2px solid #7A7879; padding: 4px 10px; line-height: 21px; }
+.ps-custom .form-group textarea { height: 140px; resize: none; }
+.ps-custom .form-group .btn { border-radius: 0; border: 0; padding: 6px 30px; }
+.ps-custom .form-group .btn-primary { margin-left: 10px; background: #231F20; color: #fff; border-radius: 0; border: 0; padding: 6px 30px; }
+.ps-custom .breadcrumbWrap { position: relative; }
+.ps-custom .breadcrumbWrap .breadcrumb { margin-bottom: 0; border-radius: 0; font-size: 0.8em; padding: 10px 0; text-transform: uppercase; }
+.ps-custom .breadcrumbWrap .breadcrumb a { color: #989898; padding: 5px 0; }
+.ps-custom .bx-wrapper { margin: 0; }
+.ps-custom .bx-wrapper .bx-viewport { margin: 0; padding: 0; background: none; left: 0; border: 0; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+.ps-custom .bx-wrapper .bx-pager.bx-default-pager { display: none; }
+.ps-custom .bx-wrapper .bx-controls-direction a { background: url(../img/condolette/bx-control.png) no-repeat left top; width: 37px; height: 59px; }
+.ps-custom .bx-wrapper .bx-controls-direction a.bx-prev { left: -35px; }
+.ps-custom .bx-wrapper .bx-controls-direction a.bx-next { background-position: -37px 0; right: -35px; }
+.ps-custom .cover-image { background: url(../img/condolette/cover-bg.png) repeat left top; position: relative; padding: 0 35px; z-index: 0; }
+.ps-custom .cover-image img { width: 100%; height: auto; }
+.ps-custom .cover-image .call-pruksa { position: absolute; z-index: 9999; right: 35px; bottom: 0; width: 26.9%; height: auto; }
+.ps-custom .cover-image .call-pruksa img { width: 100% !important; height: auto !important; }
+.ps-custom .bxslider-cover-image { margin: 0; list-style: none; padding: 0; margin: 0; }
+
+.ps-custom .register_banner_wrap { position: absolute; top: 0px; right: 35px; margin: 0 auto;height: auto;width: 229px; }
+.ps-custom .register_banner_wrap .register_banner { background: none;position: static;text-align: right;width: auto;height: auto;}
+.ps-custom .register_banner_wrap .register_banner a{padding:0;margin:0;}
+.ps-custom .register_banner_wrap .register_banner br{display: none;}
+.ps-custom .register_banner_wrap .register_banner img{width: 100% !important;height: auto !important;}
+
+.ps-custom .register_banner-text .register_banner { background: #221F20; }
+.ps-custom .register_banner-text .register_banner a { text-align: center;padding: 6px 0; }
+.ps-custom .register_banner-text .register_banner small { color: #FFFFFF;font-family: db_gill_siam_xregular;font-size: 14px;height: auto; }
+
+
+.ps-custom .image-gallery { background: url(../img/condolette/cover-bg.png) repeat left top; position: relative; padding: 0 35px; z-index: 0; }
+.ps-custom .image-gallery .image-frame { position: relative; }
+.ps-custom .image-gallery img { width: 100%; height: auto; display: block; }
+.ps-custom .image-gallery img.old { z-index: 1; position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 100%; height: auto; }
+.ps-custom .carousel-thumb { background: none; margin: 10px 0 3px 0; padding: 0 40px; }
+.ps-custom .carousel-thumb.single-set-thumb .carousel-control{filter: alpha(opacity=0);}
+.ps-custom .carousel-thumb .carousel-inner { position: relative; }
+.ps-custom .carousel-thumb .item { text-align: center; }
+.ps-custom .carousel-thumb .gallery-list-item { margin-bottom: 10px; }
+.ps-custom .carousel-thumb img { width: 100%; }
+.ps-custom .carousel-thumb .carousel-control { width: 37px; height: 59px; z-index: 99; top: 50%; margin-top: -35px; }
+.ps-custom .carousel-thumb .carousel-control.left { filter: none; background-position: 0 0; background-image: url(../img/condolette/bx-control.png); background-repeat: no-repeat; left: 0; }
+.ps-custom .carousel-thumb .carousel-control.right { filter: none; background-position: -37px 0; background-image: url(../img/condolette/bx-control.png); background-repeat: no-repeat; right: 0; }
+.ps-custom .carousel-thumb .col-xs-4 { padding: 0 5px; }
+.ps-custom .carousel-thumb .carousel-caption { visibility: hidden; }
+.ps-custom .carousel-thumb .row-fluid { margin: 0 -5px; }
+.ps-custom .search-container .loading-div { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.4); display: none; }
+.ps-custom .search-container .loading-div img { position: relative; left: 50%; top: 50%; margin-left: -16px; margin-top: -16px; }
+.ps-custom .paginationWrap { background: #ffffff; margin: 0 0 20px 0; position: relative; text-align: center; }
+.ps-custom .paginationWrap .load-more-item { padding: 20px 0; }
+.ps-custom .paginationWrap .load-more-item a { background-color: #fff; line-height: 25px; border: solid 2px #7B797A; text-align: center; display: block; color: #1F1E1F; }
+.ps-custom .share-sprite, .ps-custom .social-book-mark .icon.compare, .ps-custom .social-book-mark .icon.favrorite, .ps-custom .social-book-mark .icon.share, .ps-custom .social-book-mark .icon.print, .ps-custom .social-book-mark .icon.brochure { background: url('../img/condolette/share-s76dfbd1104.png') no-repeat; }
+.ps-custom .social-book-mark { padding: 20px 0 0 0; position: relative; z-index: 0; /* share button */ }
+.ps-custom .social-book-mark .addthis_toolbox { padding-top: 12px; }
+.ps-custom .social-book-mark .list-inline { margin-bottom: 0; }
+.ps-custom .social-book-mark .addthis_toolbox > a { float: right; }
+.ps-custom .social-book-mark .shareBox { border-left: solid 1px #CBCAB9; border-right: solid 1px #CBCAB9; text-align: left; padding: 0 5px; }
+.ps-custom .social-book-mark .shareBox a { float: left; text-align: center; margin: 0 5px; display: inline-block; font-size: 10px; }
+.ps-custom .social-book-mark .icon { width: 34px; height: 24px; margin: 0 auto; display: block; }
+.ps-custom .social-book-mark .icon.compare { background-position: -26px 0; width: 31px; }
+.ps-custom .social-book-mark .icon.favrorite { background-position: -57px 0; width: 17px; }
+.ps-custom .social-book-mark .icon.share { background-position: -98px 0; width: 25px; }
+.ps-custom .social-book-mark .icon.print { background-position: -74px 0; width: 24px; }
+.ps-custom .social-book-mark .icon.brochure { background-position: 0 0; width: 26px; height: 33px; }
+.ps-custom .social-book-mark .BrochureBox { display: inline-block; padding: 0 5px; font-size: 10px; text-align: center; top: -3px; position: relative; }
+.ps-custom .social-book-mark .addthis_button_pinterest_pinit iframe { top: 0; position: relative; }
+.ps-custom .social-book-mark .addthis_button_facebook_like { position: relative; top: 0; }
+.ps-custom .social-book-mark .st_googleplus_hcount .stButton { line-height: 16px; }
+.ps-custom .social-book-mark .shareBox, .ps-custom .social-book-mark .ps-project-share-Left { display: inline-block; }
+.ps-custom .social-book-mark .ps-project-share-SocialBtn { padding: 0; }
+.ps-custom .social-book-mark .ps-project-share-Left { position: relative; top: -15px; padding: 0; }
+.ps-custom .social-book-mark .stButton { line-height: 22px; margin: 0; }
+.ps-custom .social-book-mark .stButton .stFb, .ps-custom .social-book-mark .stButton .stTwbutton, .ps-custom .social-book-mark .stButton .stMainServices, .ps-custom .social-book-mark .stButton .stButton_gradient { height: 16px; }
+.ps-custom .masterHead { padding-top: 20px;overflow-x: hidden; }
+.ps-custom .masterHead .main-menu a { color: #000; }
+.ps-custom .searchBox { padding: 31px 0 27px 0; }
+.ps-custom .searchBox .form-label { line-height: 34px; margin-right: 10px; font-size: 1.6em; }
+.ps-custom .searchBox .btn-group.bootstrap-select { min-width: 220px; padding: 0 10px; }
+.ps-custom .searchBox .btn-primary { margin-left: 10px; background: #231F20; color: #fff; border-radius: 0; border: 0; padding: 6px 12px; }
+.ps-custom .list-items .list-item .thumbnail { background: url(../img/condolette/list-bg.png) no-repeat center bottom; background-size: contain; border: none; border-radius: 0; padding: 0 0 50px 0; margin: 0;position: relative;}
+.ps-custom .list-items .list-item .thumbnail .image { position: relative; }
+.ps-custom .list-items .list-item .thumbnail .image:after { content: " "; background: url("../img/condolette/img-arrow-bottom.png") no-repeat left top; width: 34px; height: 17px; display: block; position: absolute; bottom: 0; left: 12.5px; }
+.ps-custom .list-items .list-item .thumbnail img { width: 100%; height: auto; }
+.ps-custom .list-items .list-item .thumbnail .img-flagnew{position: absolute;right:0;top:0;width: 50px;}
+.ps-custom .list-items .list-item .caption { padding: 15px 0; }
+.ps-custom .list-items .list-item .caption h3 { margin-top: 0; font-size: 1.3em; font-weight: normal;line-height: 1.3em; }
+.ps-custom .past-project { padding-top: 20px; }
+.ps-custom .past-project .list-items .list-item .caption { width: 185px; padding: 15px 12px; background: #fff; }
+.ps-custom .past-project .list-items .list-item .caption h3 { font-size: 1.2em; }
+.ps-custom .past-project .list-items .list-item .thumbnail { padding-bottom: 0; background: url(../img/condolette/about-list-bg.png) no-repeat right bottom; background-size: contain; background-repeat: repeat;}
+
+.ps-custom .video-frame-wrap { background: url(../img/condolette/cover-bg.png) repeat left top; position: relative; padding: 0 35px; z-index: 0; }
+.ps-custom .video-frame-wrap .video-frame { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
+.ps-custom .video-frame-wrap .video-frame iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.ps-custom .icon-sprite, .ps-custom .footer-icons .customer-mortgages i, .ps-custom .footer-icons .financial-services i, .ps-custom .footer-icons .appointment i, .ps-custom .footer-icons .home-specification i { background: url('../img/condolette/icon-sed5fceff49.png') no-repeat; }
+.ps-custom .footer-icons { margin: 0 -12.5px; padding-top: 0px; padding-bottom: 25px; text-align: center; }
+.ps-custom .footer-icons a { height: 84px; display: line-block; margin: 0 auto 0 auto; font-size: 17px; line-height: 15px; text-decoration: none; color: #626162; padding: 15px 0 15px; text-align: left; }
+.ps-custom .footer-icons a.active,
+.ps-custom .footer-icons a:hover{text-shadow: 3px 1px 3px #aaaaaa;color: #000;}
+.ps-custom .footer-icons i { display: inline-block; height: 52px; width: 52px; margin-right: 5px; }
+.ps-custom .footer-icons span { line-height: 20px; display: inline-block; position: relative; top: -10px; }
+
+.ps-custom.ps-langth .footer-icons .financial-services span,
+.ps-custom.ps-langth .footer-icons .customer-mortgages span{top: -20px;}
+
+.ps-custom .footer-icons .customer-mortgages i { background-position: 0 0; }
+.ps-custom .footer-icons .financial-services i { background-position: 0 -105px; }
+.ps-custom .footer-icons .appointment i { background-position: 0 -157px; }
+.ps-custom .footer-icons .home-specification i { background-position: 0 -52px; }
+.ps-custom .main-content { color: #1F1E1F; }
+.ps-custom .main-content h1 { font-size: 1.6em; }
+.ps-custom .main-content h2 { font-size: 1.6em; }
+.ps-custom.home-page .list-item { margin-bottom: 10px; }
+.ps-custom.home-page .list-item .section-title { font-size: 1.3em; }
+.ps-custom.home-page .list-item .thumbnail { background: url(../img/condolette/home-list-bg.png) no-repeat left bottom; background-size: contain; padding-bottom: 80px; }
+.ps-custom.home-page .list-item .thumbnail .bg { background: #fff; }
+.ps-custom.home-page .list-item .thumbnail .bg:before, .ps-custom.home-page .list-item .thumbnail .bg:after { display: table; content: " "; }
+.ps-custom.home-page .list-item .thumbnail .bg:after { clear: both; }
+.ps-custom.home-page .list-item .thumbnail .image:after { content: " "; background: url("../img/condolette/img-arrow.png") no-repeat left top; width: 17px; height: 34px; display: block; position: absolute; top: 20px; right: 12.5px; left: auto; bottom: auto; }
+.ps-custom.virtual-tour-detail-page .back-btn-wrap { margin: 20px 0; }
+.ps-custom.virtual-tour-detail-page .main-content { padding-bottom: 20px; }
+.ps-custom.about-us-page .main-content, .ps-custom.contact-us-page .main-content, .ps-custom.register-page .main-content, .ps-custom.make-an-appointment-page .main-content { padding-bottom: 30px; }
+.ps-custom.news-activities-page .main-content, .ps-custom.promotions-page .main-content, .ps-custom.virtual-tour-page .main-content, .ps-custom.price-brochure-page .main-content { margin-top: 20px; }
+/* .ps-custom.about-us-page .main-content { background: url(../img/condolette/about-us-bg.png) no-repeat right 490px; }*/
+.ps-custom.all-location-page .breadcrumbWrap .breadcrumb { background: url(../img/condolette/breadcrumb-bg.png) repeat-x left bottom; }
+.ps-custom.news-activities-detail-page .main-content { position: relative; padding-bottom: 40px; }
+.ps-custom.news-activities-detail-page .main-content h1 { margin-top: 0; }
+.ps-custom.news-activities-detail-page .back-btn-wrap { position: absolute; left: 12.5px; top: -50px; }
+.ps-custom.news-activities-detail-page .back-btn-wrap .js-back-btn { background: #000; color: #fff; padding: 6px 20px; }
+.ps-custom.news-activities-detail-page .footer-icons { background: url(../img/condolette/about-us-bg.png) no-repeat right 45px; }
+.ps-custom .project-content { padding-bottom: 40px; }
+.ps-custom .project-content h1 { margin-bottom: 30px; }
+.ps-custom.project-progress-page .progress-item { margin-bottom: 30px; }
+.ps-custom.project-progress-page .progress-item .month { position: relative; top: -20px; }
+.ps-custom.project-progress-page .progress-item .year { position: relative; top: -10px; font-size: 30px; font-weight: bold; color: #797879; }
+.ps-custom.project-progress-page .main-content { padding-top: 30px; background: url(../img/condolette/project-progress-bg.png) no-repeat 18px 430px; }
+.ps-custom.project-location-page .map-image { position: relative; }
+.ps-custom.project-location-page .map-image img { width: 100%; height: auto; }
+.ps-custom.project-location-page .map-google .btn,
+.ps-custom.project-location-page .map-image .btn { position: absolute; left: 10px; bottom: 10px; background: #5e6909; color: #fff; }
+.ps-custom.project-location-page .map-google { background: #fff;position: relative; }
+.ps-custom.project-location-page .map-button { padding: 0 35px; text-align: right; }
+.ps-custom.project-location-page .map-button .btn { background: #999; color: #fff; border-radius: 0; margin-bottom: 20px; min-width: 100px; margin-left: 10px; padding: 3px 10px; }
+.ps-custom.project-location-page .map-button .btn.active { background: #333; color: #fff; }
+.ps-custom.project-location-page .main-content { background: url(../img/condolette/project-location-bg.png) no-repeat 12.5px 3px; background-size: contain; }
+.ps-custom.project-location-page .main-content h1 { margin-bottom: 10px; }
+.ps-custom.project-facilities-page .main-content { background: url(../img/condolette/project-facilities-bg.png) no-repeat 12.5px 3px; background-size: contain; }
+.ps-custom.project-facilities-page .main-content h1 { margin-bottom: 10px; }
+.ps-custom.search-by-map-page #map-content { margin-bottom: 20px; padding: 10px; }
+.ps-custom.search-by-map-page #map-content .filter-result ul { list-style: none; padding: 0; }
+.ps-custom.search-by-map-page #map-content .bootstrap-select { width: 100% !important; }
+.ps-custom.error404-page .main-content { min-height: 300px; }
+.ps-custom.project-floorplan-page .nav-column { padding: 30px 20px 0 60px; }
+.ps-custom.project-floorplan-page .nav-column .list-group-item { border: none; border-radius: 0; padding: 0 0 6px 0; }
+.ps-custom.project-floorplan-page .nav-column .list-group-item .list-group { padding: 5px 0; margin: 0 10px; }
+.ps-custom.project-floorplan-page .nav-column .list-group-item a { color: #797879;font-size: 14px;display: block;padding: 5px 0; }
+.ps-custom.project-floorplan-page .nav-column .list-group-item a.active { color: #000 !important;font-weight: bold; }
+.ps-custom.project-floorplan-page .nav-column .list-group-item .list-group a.active {font-weight: normal;}
+.ps-custom.project-floorplan-page .nav-column .list-group-item a.tab-menu {  }
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible > .list-group-item { border-bottom: solid 1px #F5F5F5; margin-bottom: 0; }
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible-sub .list-group { display: none;margin:0;padding: 5px 0; border-top: 1px solid #f5f5f5;}
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible-sub .list-group .parent.active{padding: 5px 0 5px 20px;cursor: hand;cursor: pointer;}
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible-sub .list-group ul{padding: 10px 0 0 0;border-top: 1px solid #f5f5f5;display: none;}
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible-sub .list-group ul a{padding-left: 40px;display: block;}
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible-sub .list-group-item.active ul{ /*display: block;*/ }
+.ps-custom.project-floorplan-page .nav-column .menu-collapsible-sub.js-menu-expanded .list-group { /* display: block; */ }
+.ps-custom.project-floorplan-page .floorplan-item-wrap { display: none; }
+.ps-custom.project-floorplan-page .plan-column { padding-top: 60px; }
+.ps-custom.project-floorplan-page .floor-plan-frame { position: relative;padding-bottom: 20px;}
+.ps-custom.project-floorplan-page .floor-plan-frame .js-tab-content{ position: relative;padding-bottom: 40px;padding-bottom: 40px; padding-top: 20px;}
+.ps-custom.project-floorplan-page .floor-plan-frame .image-frame{ position: relative;padding-bottom: 40px;}
+.ps-custom.project-floorplan-page .floor-plan-frame .js-zoom { position: absolute; bottom: 10px; right: 10px; }
+.ps-custom.project-floorplan-page .floor-information{margin-top: 10px;}
+.ps-custom.project-floorplan-page h3.price { font-size: 15px; color: #797879; margin-top: 0; }
+.ps-custom.project-floorplan-page .js-tab-toggle { background: #F1F1F1; color: #737273; padding: 3px 10px; }
+.ps-custom.project-floorplan-page .js-tab-toggle.active { background: #231F20; color: #fff; }
+.ps-custom .ps-custom-modal .js-tab-toggle.active{color: #000!important; }
+.ps-custom.project-floorplan-page { background: none; margin-top: 0; }
+.ps-custom.project-floorplan-page h2 { font-size: 18px; font-weight: normal; margin-top: 0;margin-bottom: 0; text-transform: uppercase; color: #1f1e1f;}
+.ps-custom.project-floorplan-page .house-type-detail { color: #444; background: #eee; }
+.ps-custom.project-floorplan-page .house-type-detail h2 { color: #444; }
+.ps-custom.project-floorplan-page .house-type-function { background: #eee; }
+.ps-custom.project-floorplan-page .house-type-function h2 { color: #444; }
+.ps-custom.project-floorplan-page .house-type-plan { background: #eee; }
+.ps-custom.project-floorplan-page .house-type-plan h2 { color: #444; }
+.ps-custom.project-floorplan-page .house-type-plan, .ps-custom.project-floorplan-page .house-type-function, .ps-custom.project-floorplan-page .house-type-detail { margin-bottom: 10px; }
+.ps-custom.project-floorplan-page .house-type-plan .content, .ps-custom.project-floorplan-page .house-type-function .content, .ps-custom.project-floorplan-page .house-type-detail .content { padding: 20px; }
+.ps-custom.project-floorplan-page .func-icon-sprite, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-a, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-b, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-c, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-d, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-e, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-f, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-g, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-h, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-i, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-j, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-k, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-l, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-m, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-n, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-o, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-p, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-q, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-r, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-s, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-t, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-u, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-v, .ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-w { background: url('../img/condolette/func-icon-sa1102a2528.png') no-repeat; }
+.ps-custom.project-floorplan-page .func-list { list-style: none; margin: 0; padding: 0; }
+.ps-custom.project-floorplan-page .func-list li { padding: 10px 0; line-height: 30px; }
+.ps-custom.project-floorplan-page .func-list .number { font-size: 25px; line-height: 1em; }
+.ps-custom.project-floorplan-page .func-list .func-label { font-size: 14px; line-height: 1em; }
+.ps-custom.project-floorplan-page .func-list .func-icon { height: 40px; }
+.ps-custom.project-floorplan-page .func-list .func-detail { float: left; margin-left: 10px; }
+.ps-custom.project-floorplan-page .func-list .number, .ps-custom.project-floorplan-page .func-list .func-label { color: #399ac1; float: none; display: inline-block; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-a { background-position: 0 -630px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-b { background-position: 0 -660px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-c { background-position: 0 -540px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-d { background-position: 0 -570px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-e { background-position: 0 -600px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-f { background-position: 0 -300px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-g { background-position: 0 -150px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-h { background-position: 0 -420px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-i { background-position: 0 -330px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-j { background-position: 0 -120px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-k { background-position: 0 -360px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-l { background-position: 0 -240px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-m { background-position: 0 -510px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-n { background-position: 0 -390px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-o { background-position: 0 -60px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-p { background-position: 0 -270px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-q { background-position: 0 -180px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-r { background-position: 0 -90px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-s { background-position: 0 -450px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-t { background-position: 0 0; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-u { background-position: 0 -30px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-v { background-position: 0 -480px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-floorplan-page .func-list .spt-ps-function-ic-w { background-position: 0 -210px; width: 40px; height: 30px; display: inline-block; vertical-align: top; }
+.ps-custom.project-gallery-virtual-tour-page .video-title { text-align: center; }
+.ps-custom.project-gallery-virtual-tour-page .video-title h2 { font-size: 14px; }
+.ps-custom.project-gallery-virtual-tour-page .js-back-btn { background-color: #000; color: #fff; padding: 4px 15px; border-radius: 0; position: relative; top: -30px; left: 35px; }
+.ps-custom.project-gallery-page .main-content { padding: 0 12.5px; }
+.ps-custom.project-gallery-page .main-content h2 { margin: 15px 0; font-weight: bold; font-size: 14px; }
+.ps-custom.project-gallery-page .main-content .list-item { position: static; }
+.ps-custom .facilities-sprite, .ps-custom.project-facilities-page .fac-cctv i, .ps-custom.project-facilities-page .fac-club-house i, .ps-custom.project-facilities-page .fac-fitness i, .ps-custom.project-facilities-page .fac-key-card i, .ps-custom.project-facilities-page .fac-park i, .ps-custom.project-facilities-page .fac-security i, .ps-custom.project-facilities-page .fac-swimming-pool i { background: url('../img/condolette/facilities-se3a3b1b843.png') no-repeat; }
+.ps-custom.project-facilities-page .fac-list { padding-top: 15px; }
+.ps-custom.project-facilities-page .fac-list .col-sm-3{margin-bottom: 15px;min-height: 40px;}
+.ps-custom.project-facilities-page .fac-list span { display: block;padding-left: 50px;padding-top: 10px; position: relative;}
+.ps-custom.project-facilities-page .fac-list span img{position: absolute; left: 0px; top: 0px;}
+.ps-custom.project-facilities-page .fac-list i { width: 40px; height: 40px; display: block; float: left; margin-right: 10px; }
+.ps-custom.project-facilities-page .fac-cctv i { background-position: 0 -240px; }
+.ps-custom.project-facilities-page .fac-club-house i { background-position: 0 -120px; }
+.ps-custom.project-facilities-page .fac-fitness i { background-position: 0 -40px; }
+.ps-custom.project-facilities-page .fac-key-card i { background-position: 0 0; }
+.ps-custom.project-facilities-page .fac-park i { background-position: 0 -160px; }
+.ps-custom.project-facilities-page .fac-security i { background-position: 0 -200px; }
+.ps-custom.project-facilities-page .fac-swimming-pool i { background-position: 0 -80px; }
+.ps-custom.customer-mortgages-page { background: url(../img/condolette/project-progress-bg.png) no-repeat center 655px; }
+.ps-custom.customer-mortgages-page .main-content { padding-top: 30px; }
+.ps-custom.customer-mortgages-page .customer-mortgages-steps { padding-bottom: 20px; }
+.ps-custom.customer-mortgages-page .customer-mortgages-buttom { border-top: solid 2px #1F1E1F; padding: 30px 0; }
+.ps-custom.customer-mortgages-page .customer-mortgages-buttom .btn { padding: 3px 15px; background: url(../img/condolette/btn-mortgages-2.png) repeat left top; -webkit-box-shadow: #bfbfbf 5px 5px 0px 0px; -moz-box-shadow: #bfbfbf 5px 5px 0px 0px; box-shadow: #bfbfbf 5px 5px 0px 0px; margin: 6px; }
+.ps-custom.customer-mortgages-page .customer-mortgages-buttom .btn i { position: absolute; left: 0px; }
+.ps-custom.customer-mortgages-page .customer-mortgages-buttom .btn span { position: relative; padding-left: 30px; display: inline-block; text-align: left; }
+.ps-custom.customer-mortgages-page .customer-mortgages-buttom .btn-calculate { padding: 3px 60px; }
+.ps-custom.customer-mortgages-page .btn-mortgages { display: block; width: 60%; background: url(../img/condolette/btn-mortgages.png) repeat left top; margin: 0 auto 20px; padding: 20px 0; border-radius: 10px; font-weight: bold; color: #4C4B4C; -webkit-box-shadow: #bfbfbf 7px 7px 0px 0px; -moz-box-shadow: #bfbfbf 7px 7px 0px 0px; box-shadow: #bfbfbf 7px 7px 0px 0px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail { text-align: center; padding: 10px 0; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail h2 { margin-top: 0; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .btn-flat { background: #fff; color: #000; border: solid 2px #CCCCCC; border-radius: 0; margin: 5px 0; width: 100%; font-size: 12px; padding: 5px 0; text-align: center; -webkit-box-shadow: #bfbfbf 3px 3px 0px 0px; -moz-box-shadow: #bfbfbf 3px 3px 0px 0px; box-shadow: #bfbfbf 3px 3px 0px 0px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .btn-flat.active { background: #000; color: #fff; border: solid 2px #000; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .step-tab { width: 100%; float: left; padding: 0; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .detail-tab { padding-bottom: 10px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .detail-tab .col-md-3 { padding: 0 5px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .detail-tab:before, .ps-custom.customer-mortgages-page .mortgages-step-detail .detail-tab:after, .ps-custom.customer-mortgages-page .mortgages-step-detail .detail-content:before, .ps-custom.customer-mortgages-page .mortgages-step-detail .detail-content:after { display: table; content: " "; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .detail-tab:after, .ps-custom.customer-mortgages-page .mortgages-step-detail .detail-content:after { clear: both; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table { border: solid 1px #000; border-width: 1px 1px 1px 1px; background: #fff; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table th { color: #4C4B4C; vertical-align: middle; border-bottom: solid 1px #000; border-top: solid 1px #000; text-align: center; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table th.text-left, .ps-custom.customer-mortgages-page .mortgages-step-detail .table th.document { text-align: left; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table th.rentier { width: 130px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table th.owner { width: 170px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table td { color: #959394; text-align: left; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table td.checker { color: #000; text-align: center; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table td.download { color: #fff; text-align: center; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table td.footer-note { border-bottom: none; padding-left: 10px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table td.warn { color: #FF3333; font-weight: bold; padding-top: 20px; margin-bottom: 0; border-top: solid 1px #000; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .table th, .ps-custom.customer-mortgages-page .mortgages-step-detail .table td { border-right: solid 1px #000; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download { background: #000; text-align: center; padding: 10px 0; color: #fff; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download a { color: #fff; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .footer-note { font-size: 11px; padding: 5px 0; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .footer-note p { margin-bottom: 0; font-weight: bold; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .footer-note ol { padding-left: 15px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download-list { padding: 10px 0 30px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download-list .folder { display: inline-block; height: 120px; width: 156px; margin: 20px; position: relative; vertical-align: top; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download-list .folder a { height: 96px; display: block; background: url(../img/condolette/folder.png) no-repeat left top; color: #fff; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download-list .folder .num { display: block; width: 100%; text-align: left; text-indent: 25px; padding-bottom: 10px; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download-list .folder .doc { display: block; width: 100%; }
+.ps-custom.customer-mortgages-page .mortgages-step-detail .download-list .folder .label { position: absolute; bottom: 0; display: block; width: 100%; color: #000; font-weight: bold; font-size: 13px; }
+
+/* expanding preview*/
+.js-expanding-preview-container { height: 0; display: none; transition: all 300ms ease-out; -webkit-transition: all 300ms ease-out; -moz-transition: all 300ms ease-out; }
+.js-expanding-preview-container.loading { height: 250px; }
+.js-expanding-preview-container .expanded-content { position: absolute; left: 0; top: auto; right: 0; width: 100%; height: 600px; }
+
+/* import home spec */
+/* home-specification */
+.homespec-page-wrapper h2 { margin: 0 0 20px; }
+.homespec-page-wrapper .home-spec-container-wrapper { position: relative; padding: 0 35px; background: url(../img/condolette/cover-bg.png) repeat left top; }
+.homespec-page-wrapper .home-spec-container { background-color: #eeeeee; margin: 0; position: relative; }
+.homespec-page-wrapper .spec-image { padding: 0; }
+.homespec-page-wrapper .spec-image-canvas { position: relative; }
+.homespec-page-wrapper .spec-image-canvas img { width: 100%; height: auto; }
+.homespec-page-wrapper .spec-image-canvas .dot { position: absolute; background: url(../img/condolette/home-spec/dot.png) no-repeat left top; width: 23px; height: 23px; display: block; cursor: pointer; cursor: hand; -webkit-box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.65); -moz-box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.65); box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.65); border-radius: 15px; }
+.homespec-page-wrapper .spec-image-canvas .dot.active, .homespec-page-wrapper .spec-image-canvas .dot:hover { background-position: 0 -23px; }
+.homespec-page-wrapper .spec-image-canvas .dot.buyable, .homespec-page-wrapper .spec-image-canvas .dot.buyable:hover { background-position: 0 -46px; }
+.homespec-page-wrapper .buyable-container { display: none; position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100%; height: 100%; overflow: hidden; background-color: #EFEFEF; }
+.homespec-page-wrapper .buyable-container .buy-div { position: absolute; bottom: 10px; right: 0px; padding: 0 10px; }
+.homespec-page-wrapper .home-spec-main .buy-div { padding-top: 20px; }
+.homespec-page-wrapper .buynow { margin-right: 0; text-indent: 0; background: #1F1E1F; color: #fff; padding: 2px 10px; font-size: 13px; line-height: 21px; border-radius: 0; }
+.homespec-page-wrapper .how_to_buy { line-height: 31px; color: #1F1E1F; }
+.homespec-page-wrapper .how_to_buy .glyphicon { font-size: 1.8em; top: 4px; }
+.homespec-page-wrapper .how_to_buy span { margin-left: 5px; line-height: 31px; display: block; float: right; }
+.homespec-page-wrapper .buyable-container .part-img { display: none; }
+.homespec-page-wrapper .buyable-container .part-img img { max-width: 9999px; width: 100%; }
+.homespec-page-wrapper .buyable-container .btn-back { height: 31px; background: none; left: 20px; color: #1F1E1F; text-indent: 0; font-size: 16px; font-weight: bold; }
+.homespec-page-wrapper .spec-detail h3 { font-size: 20px; margin: 0 0 10px 0; }
+.homespec-page-wrapper .spec-detail-inner { padding: 12.5px; color: #000000; }
+.homespec-page-wrapper .spec-detail-inner h3 { color: #1F1E1F; }
+.homespec-page-wrapper .spec-detail-inner td, .homespec-page-wrapper .spec-detail-inner th { color: #4E523B; }
+.homespec-page-wrapper .spec-detail .part-img { padding: 10px 0; }
+.homespec-page-wrapper .spec-detail .part-img img { max-width: 9999px; width: 100%; }
+.homespec-page-wrapper .spec-image-data { padding-bottom: 10px; }
+.homespec-page-wrapper .spec-image-data .pointx { margin: 10px 0 20px 0; }
+.homespec-page-wrapper .spec-image-data h4 { font-size: 14px; }
+.homespec-page-wrapper .spec-image-data .part-img { padding: 10px 0; }
+.homespec-page-wrapper .spec-image-data .part-img img { width: 100%; height: auto; }
+.homespec-page-wrapper .controller-prev, .homespec-page-wrapper .controller-next { background: #1f1e1f url(../img/condolette/home-spec/next-prev-icon.png) no-repeat left top; position: absolute; right: 0; bottom: 0; width: 24px; height: 24px; display: block; }
+.homespec-page-wrapper .controller-prev { right: 25px; background-position: 0 0; }
+.homespec-page-wrapper .controller-next { background-position: -25px 0; }
+.homespec-page-wrapper .item-description { width: 100%; }
+.homespec-page-wrapper .item-description table { border-spacing: 0; border-collapse: collapse; margin-bottom: 12.5px;width: 100%; }
+.homespec-page-wrapper .item-description .col-name { width: 130px; }
+.homespec-page-wrapper .ps-project-gall-bx-thmb a { float: left; margin-right: 10px; position: relative; width: 182px; position: relative; }
+.homespec-page-wrapper .bx-wrapper { padding: 15px 95px; border: 0; position: relative; z-index: 0; }
+.homespec-page-wrapper .bx-wrapper .bx-controls-direction a.bx-prev, .homespec-page-wrapper .bx-wrapper .bx-controls-direction a.bx-next { margin-top: -29px; }
+.homespec-page-wrapper .bx-wrapper .bx-controls-direction a.bx-prev { left: 25px; }
+.homespec-page-wrapper .bx-wrapper .bx-controls-direction a.bx-next { right: 25px; }
+.ps-custom .bx-wrapper .bx-controls-direction a{margin-top: -25px;}
+.homespec-page-wrapper .bx-wrapper .bx-viewport { box-shadow: none; left: 0; border: none; position: relative; }
+.homespec-page-wrapper .bx-wrapper .caption { display: none; }
+.homespec-page-wrapper #ps-how-to-buy-box .tab-pane img { width: 100%; height: auto; }
+.homespec-page-wrapper #ps-buynow-box .promo-code-container { width: 300px; margin-bottom: 10px; line-height: 30px; text-align: center; border: solid 1px #ccc; }
+.homespec-page-wrapper #ps-buynow-box .promo-code-label { float: left; width: 50%; background: #eee; }
+.homespec-page-wrapper #ps-buynow-box .promo-code { float: left; width: 50%; }
+
+.home-specification .item-description table{width: 100%; }
+.home-specification-page .clear-fix{clear:both;}
+
+.cloud-zoom-lens, .cloud-zoom-big { border: none !important; }
+
+.ps-buynow-box .btn-group.bootstrap-select { width: 100% !important; margin: 0; }
+.ps-buynow-box label { display: none; }
+.ps-buynow-box .checkbox label { display: block; }
+.ps-buynow-box .checkbox a { text-decoration: underline; }
+
+.ps-how-to-buy-box .tab-pane { padding: 50px 0 50px 0; text-align: center; }
+.ps-how-to-buy-box .tab-pane img { margin: 0 auto; }
+.ps-how-to-buy-box .modal-body { padding: 20px 0 0 0; }
+.ps-how-to-buy-box #step_tab { padding-left: 15px; }
+.ps-how-to-buy-box #step_tab li { margin: 0 5px; }
+.ps-how-to-buy-box #step_tab li a { border-radius: 0; }
+
+.ps-custom.project-gallery-page .image{overflow: hidden;}
+.ps-custom.project-gallery-page .image a:hover{
+  -moz-box-shadow:     0 0 5px 1px rgba(0,0,0,0.45);
+  -webkit-box-shadow:  0 0 5px 1px rgba(0,0,0,0.45);
+  box-shadow:          0 0 5px 1px rgba(0,0,0,0.45);
+}
+
+.ps-custom.project-gallery-page .image .glyphicon {
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  font-size:50px;
+  display:block;
+  width:50px;
+  height:50px;
+  color:#fff;
+  text-shadow:0 0 5px rgba(0,0,0,0.5); 
+  transition:all 0.2s ease-in-out;
+  -webkit-transition:all 0.2s ease-in-out;
+  -moz-transition:all 0.2s ease-in-out;
+}
+
+.ps-custom.project-gallery-page .image img {
+  opacity:0.9; 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all  0.5s  ease;
+  -ms-transition: all  0.5s  ease;
+  -o-transition: all  0.5s  ease;
+  transition: all  0.5s  ease;
+  transition-duration: 1s;
+}
+.ps-custom.project-gallery-page .image a:hover img { 
+  opacity:1; 
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
+.ps-custom.project-gallery-page .image a:hover .glyphicon {
+  opacity:0;transform:scale(10,10);
+  -webkit-transform:scale(10,10);
+  -moz-transform:scale(10,10);
+}
+
+
+
+/* less than desktop */
+@media (max-width: 992px) { .homespec-page-wrapper .home-spec-container-wrapper { padding: 0; background: none; }
+  .homespec-page-wrapper .spec-image-canvas .dot, .homespec-page-wrapper .controller, .homespec-page-wrapper .buyable-container { display: none !important; } }
+/* end-home-specification */
+/* Large devices (large desktops, 1200px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { .ps-custom .nopad-md { padding: 0; } }
+/* Medium devices (desktops, 992px to 1199px) */
+/* Medium devices (768px and up) */
+@media (min-width: 768px) { /*.ps-custom .masterHead { background: #fff; } */
+  .ps-custom .masterHead .navbar-header .navbar-brand { padding: 0; }
+  .ps-custom .masterHead .navbar-brand { background: url("../img/condolette/logo.png") no-repeat left top; width: 359px; height: 42px; }
+  .ps-custom .masterHead .navbar.navbar-default { margin: 0; border: 0; border-radius: 0; background-color: transparent; }
+  .ps-custom .masterHead #main-navbar-collapse { margin-right: -30px; }
+  .ps-custom .masterHead .main-menu .nav-item.active a { background-color: transparent; color: #000; }
+  .ps-custom .masterHead .main-menu .nav-item a:hover { background-color: transparent; color: #666; }
+  .ps-custom .masterHead .main-menu .nav-item a { color: #000; }
+  .ps-custom .project-name-column .project-name-wrap { overflow: hidden; min-height: 88px; padding: 10px; background: url(../img/condolette/project-name-bg.png) repeat left top; background-size: contain; padding-left: 107px; padding-right: 25px; }
+  .ps-custom .project-name-column .project-name-wrap .project-logo { position: absolute; top: 10px; left: 22px; }
+  .ps-custom .project-name-column .project-name-wrap .project-name {width: 100%; background: #fff; height: 69px;display: table; }
+  .ps-custom .project-name-column .project-name-wrap .project-name h2 { padding: 15px 10px; font-size: 18px; margin: 0; font-family: db_gill_siam_xregular;display: table-cell;vertical-align: middle;font-weight: normal;text-transform: inherit; }
+  .ps-custom .social-column { background: url(../img/condolette/social-bg.png) no-repeat right top; background-size: cover; height: 90px; }
+  .ps-custom .project-nav .navbar-default { background: transparent; border: none; min-height: 30px; margin: 20px 0; }
+  .ps-custom .project-nav .navbar-default .navbar-nav { text-align: center; float: none; }
+  .ps-custom .project-nav .container-fluid{padding:0;}
+  .ps-custom .project-nav .navbar-default .navbar-nav > li > a { padding: 5px 5px; font-size: 15px; font-weight: 500; color: #797879; font-family: db_gill_siam_xregular; }
+  .ps-custom .project-nav .navbar-default .navbar-nav > .active > a, .ps-custom .project-nav .navbar-default .navbar-nav > .active > a:hover, .ps-custom .project-nav .navbar-default .navbar-nav > .active > a:focus { color: #201E1F; background: none; }
+  .ps-custom .project-nav .navbar-default br { display: none; }
+  .ps-custom .project-nav .navbar-default .navbar-nav > li { background: url(../img/condolette/menu-sep.png) no-repeat left center; width: 16%; display: inline-block; float: none; }
+  .ps-custom .project-nav .navbar-default .navbar-nav > li.nav-project-concept { border-left: none; background: none; }
+  .ps-custom.customer-mortgages-page .customer-mortgages-buttom .btn br { display: none; } }
+/* Small devices (768px to 1000px) */
+@media (max-width: 1000px) and (min-width: 768px) { .ps-custom .searchBox { padding: 20px 12.5px; }
+  .ps-custom .searchBox .form-group { display: block; margin-bottom: 15px; }
+  .ps-custom .project-nav .navbar-default .navbar-nav > li > a { font-size: 14px; }
+  .ps-custom .project-nav .navbar-default br { display: block; }
+  .ps-custom .project-nav .navbar-default .nav-project-concept, .ps-custom .project-nav .navbar-default .nav-project-progress { top: 10px; } }
+/* Small devices (less than 992px) */
+@media (max-width: 1250px) {
+  .home-specification .bx-wrapper{padding: 10px 40px;}
+  .ps-custom .bx-wrapper .bx-controls-direction a.bx-prev{left:0;}
+  .ps-custom .bx-wrapper .bx-controls-direction a.bx-next{right:0;}
+}
+@media (max-width: 1100px) and (min-width: 768px) {
+  .ps-custom .project-nav .navbar-default .navbar-nav > li.nav-project-concept, .ps-custom .project-nav .navbar-default .navbar-nav > li.nav-project-progress{top:0;}
+  .ps-custom .project-nav .navbar-default .navbar-nav > li.nav-project-gallery{width: 10%;}
+  .ps-custom .project-nav .navbar-default .navbar-nav > li.nav-project-progress,
+  .ps-custom .project-nav .navbar-default .navbar-nav > li.nav-project-facilities{width: 18%;}
+  
+  .ps-custom .project-nav .navbar-default .navbar-nav > li > a{font-size: 12px;}
+}
+@media (max-width: 991px) {
+  .ps-custom.project-progress-page .main-content, .ps-custom.project-facilities-page .main-content, .ps-custom.project-location-page .main-content { background: none; }
+  .ps-custom.customer-mortgages-page { background: none; }
+  .ps-custom .footer-icons a { font-size: 12px; }
+  .ps-custom.home-page .list-item .thumbnail h3 { line-height: 2em; }
+  .ps-custom.home-page .list-item .thumbnail .image { position: relative; }
+  .ps-custom.home-page .list-item .thumbnail .image:after { content: " "; background: url("../img/condolette/img-arrow-bottom.png") no-repeat left top; width: 34px; height: 17px; display: block; position: absolute; bottom: 0; top: auto; left: 12.5px; }
+  .home-specification .home-spec-container{margin:0;}
+  .ps-custom .carousel-thumb{margin-bottom: 20px;}
+  .ps-custom .carousel-thumb .gallery-list-item { padding: 0 5px; }
+}
+/* Small devices (less than 999px) */
+@media (max-width: 999px) { .ps-custom .project-name-column { width: 100%; left: 0; right: 0; }
+  .ps-custom .project-name-column .project-name-wrap { background: none; background-size: contain; padding-left: 97px; height: 69px; }
+  .ps-custom .project-name-column .project-name-wrap .project-logo { position: absolute; top: 0; left: 12.5px; }
+  .ps-custom .project-name-column .project-name-wrap .project-name { width: 100%; background: #fff; height: auto; }
+  .ps-custom .project-name-column .project-name-wrap .project-name h2 { padding: 15px 10px; font-size: 18px; margin: 0; font-family: db_gill_siam_xregular; font-weight: normal;text-transform: inherit;}
+  .ps-custom .project-name-column .project-name-wrap .project-name br { display: none; }
+  .ps-custom .social-column { width: 100%; background: none; left: 0; right: 0; } }
+/* Small devices (less than 768px) */
+@media (max-width: 767px) { .ps-custom #main-navbar-collapse { padding-left: 15px; padding-right: 15px; border-top: 0; clear: both; float: none !important; }
+  .ps-custom .masterHead .navbar { min-height: 0; }
+  .ps-custom .masterHead .navbar-header { display: none; }
+  .ps-custom #main-navbar-toggle { z-index: 9999; background: url(../img/condolette/menu.png) no-repeat center 5px; width: 42px; height: 38px; border: solid 1px #DDDDDD; margin-right: 0; top: 10px; right: 12.5px; position: absolute; }
+  .ps-custom .cover-image .call-pruksa{right:0;}
+  .ps-custom .navbar-default { margin-bottom: 0; background-color: transparent; border: none; float: none !important; }
+  .ps-custom .logo-xs { background: url("../img/condolette/logo.png") no-repeat left top; width: 100%;background-size: contain; height: 42px; display: inline-block; }
+  .ps-custom .footer-icons { padding-bottom: 30px; }
+  .ps-custom .footer-icons .footer-icon { padding: 6px 40px; }
+  .ps-custom .footer-icons a{font-size: 14px;display: block;height: auto;padding: 0;}
+  .ps-custom .searchBox { padding: 0 12.5px; }
+  .ps-custom .image-gallery, .ps-custom .cover-image { background: none; padding: 0; }
+  .ps-custom .project-nav .navbar-default br { display: none; }
+  .ps-custom .main-content h1 { margin-top: 20px; }
+  .ps-custom.project-progress-page .main-content { padding-bottom: 0; }
+  .ps-custom.project-progress-page .date { text-align: left; }
+  .ps-custom.project-location-page .map-button { text-align: center; padding: 0; }
+  .ps-custom.project-location-page .map-button .btn { margin: 0 2px 10px 2px; min-width: 80px; width: auto; }
+  .ps-custom.home-page .list-item .thumbnail h3 { line-height: 2em; }
+  .ps-custom.home-page .list-item .thumbnail .image { position: relative; }
+  .ps-custom.home-page .list-item .thumbnail .image:after { content: " "; background: url("../img/condolette/img-arrow-bottom.png") no-repeat left top; width: 34px; height: 17px; display: block; position: absolute; bottom: 0; top: auto; left: 12.5px; }
+  .ps-custom .list-items .list-item .thumbnail { background: none !important; }
+  .ps-custom .list-items .list-item .caption { width: 100% !important; }
+  .ps-custom.contact-us-page .bootstrap-select { width: 100% !important; }
+  .ps-custom .social-book-mark { height: auto; overflow: visible; z-index: 999; }
+  .ps-custom .social-book-mark .ps-project-share-Left { margin-top: 0; display: block; top: 0; }
+  .ps-custom .social-book-mark .BrochureBox, .ps-custom .social-book-mark .shareBox { float: none !important; border: none; margin: 0; padding: 0; display: block; text-align: center; }
+  .ps-custom .social-book-mark .ps-project-share-Left li, .ps-custom .social-book-mark .st_facebook_hcount, .ps-custom .social-book-mark .st_twitter_hcount, .ps-custom .social-book-mark .st_pinterest_hcount, .ps-custom .social-book-mark .st_googleplus_hcount { display: block; float: none; text-align: center; }
+  .ps-custom .social-book-mark .ps-project-share-SocialBtn > * { margin-bottom: 15px; }
+  .ps-custom .social-book-mark .border-right { border: none; }
+  .ps-custom .social-book-mark .shareBox a { display: inline-block; float: none; }
+  .ps-custom.customer-mortgages-page .customer-mortgages-buttom .btn { margin: 10px 0; }
+  .ps-custom.customer-mortgages-page .mortgages-step-detail .table th.rentier { width: 50px; }
+  .ps-custom.customer-mortgages-page .mortgages-step-detail .table th.owner { width: 50px; }
+  .ps-custom.project-floorplan-page .nav-column { padding: 30px 12.5px 0; }
+  .ps-custom.project-floorplan-page .floor-plan-frame .js-tab-content{padding-bottom: 20px;}
+  .ps-custom.project-floorplan-page .floor-plan-frame .image-frame{padding-bottom: 20px;position: relative;}
+  .ps-custom.project-floorplan-page .floor-plan-frame .js-zoom{bottom:0;}
+  .ps-custom.project-gallery-virtual-tour-page .video-frame-wrap { padding: 0; background: none; }
+  .ps-custom.project-gallery-virtual-tour-page .back-btn-wrap { text-align: center; }
+  .ps-custom.project-gallery-virtual-tour-page .js-back-btn { position: relative; top: 0; left: 0; }
+  #ps-finance-box .finance-calc .form-group { margin-bottom: 8px; }
+  #ps-finance-box .finance-calc .bootstrap-select { width: 100% !important; margin-bottom: 8px; }
+  #ps-finance-box .finance-calc span.unit { display: block; text-align: right; }
+  #ps-finance-box .finance-calc input.form-control { width: 100%; }
+
+  .ps-custom.home-specification-page .bx-wrapper .bx-controls-direction a.bx-prev{left: -10px;}
+  .ps-custom.home-specification-page .bx-wrapper .bx-controls-direction a.bx-next{right: -10px;}
+
+  .ps-custom .register_banner_wrap,
+  .ps-custom .register_banner-text{position: static;width: 100%;}
+  .ps-custom .register_banner-text .register_banner { margin-bottom: 10px; }
+
+  .ps-custom .bx-wrapper .bx-controls-direction a { background-size: 36px 29px;margin-top: -22px;width: 17px; height: 39px; }
+  .ps-custom .bx-wrapper .bx-controls-direction a.bx-next { background-position: -19px 0;}
+
+}
+.msie8 .loading-div { background: #fff; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40); opacity: 0.4; }
+.h1-indent{text-indent: -9999px !important;}
+.h1-indent h1{margin: 0px !important;}

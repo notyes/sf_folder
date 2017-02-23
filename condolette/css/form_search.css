@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form_maxwidth { 
+	width: 96% !important;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.styled-select {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   -webkit-appearance: none;
+   background: url('../img/form-select-arrow.png')  right top no-repeat	 #ddd;
+   border: 1px solid #CCC;
+   }
+   
+.form_background {
+	background: url('../img/form-background.png');
+}
+
+.form_button_img {
+  width: 109px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url('../img/form-button.png') no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+
+.form_green_line {
+	width: 96%;
+	background: url(../img/green-line.png) center ;
+}
+
+.form_title{
+	width: 400px !important;
+}
+
+.form_title_big{
+	font-size:20px;
+	width: 120px !important;
+	color: #FFFFFF !important;
+	text-shadow: 1px 1px #067701 ;
+}
+.form_valign{
+	vertical-align: middle;
+}
+.form_height{
+	height: 36px !important;
+}
+
+
+@media(min-width:1200px){
+	.col-ps-1{
+		position: relative;
+		min-height: 1px;
+		padding-right: 12.5px;
+		padding-left: 12.5px;
+		float:left;
+		width: 20%;
+	}		
+}
+@media(min-width:768px){
+	.col-ps-1{
+		position: relative;
+		min-height: 1px;
+		padding-right: 12.5px;
+		padding-left: 12.5px;
+		float:left;
+		width: 20%;
+	}		
+}
+@media(min-width:992px){
+	.col-ps-1{
+		position: relative;
+		min-height: 1px;
+		padding-right: 12.5px;
+		padding-left: 12.5px;
+		float:left;
+		width: 20%; 
+	}		
+}
+

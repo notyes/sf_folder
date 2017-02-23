@@ -1,0 +1,34 @@
+body { font-family: Tahoma, Geneva, sans-serif; overflow-x: hidden; color: #000000; }
+
+h1 { font-size: 24px; }
+
+h2 { font-size: 20px; }
+
+h3 { font-size: 18px; }
+
+.introduce .start-price { display: inline; }
+.introduce .project-name { padding: 12.5px 0; }
+.introduce .project-name h1 { display: inline; }
+
+.location .map img { width: 645px; }
+
+.facilities .ps-facility-List li { margin: 5px 0; padding-left: 0; }
+
+.house-type .house-type-list .thumbnail { padding: 0; border-radius: 0; position: relative; }
+.house-type .house-type-list figure { position: relative; overflow: hidden; background: #000; }
+.house-type .house-type-list .img-flagnew { position: absolute; top: 0px; right: 0px; }
+.house-type .house-type-list .img-flaghot { position: absolute; top: 0px; right: 0px; }
+.house-type .house-type-list h4 { font-size: 14px; font-weight: bold; }
+
+.list-unstyled { margin: 0; padding: 0; list-style: none; }
+
+.print-custom { max-width: 670px; margin: 10px auto; /* footer */ }
+.print-custom .cover-image img { width: 100%; height: auto; }
+.print-custom .print-btn { text-align: right; }
+.print-custom .copyright { margin: 22px 0 0 0; }
+.print-custom .footer-logo { text-align: right; }
+
+@media print { .print-custom { max-width: 100%; }
+  .cover-image img, .map img { width: 100%; height: auto; }
+  .print-btn { display: none; }
+  .thumbnail .fullsize img { width: 100%; height: auto; } }

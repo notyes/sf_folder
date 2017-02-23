@@ -1,0 +1,13 @@
+.compare-custom .compare-tool { padding: 5px 0; }
+.compare-custom .buttons { padding: 20px 0; }
+.compare-custom p { height: auto; }
+.compare-custom .thumbnail { margin-bottom: 0; }
+.compare-custom .location, .compare-custom .facilities { padding-top: 10px; }
+.compare-custom .location .ps-tab-Green-Content-H, .compare-custom .location p, .compare-custom .facilities .ps-tab-Green-Content-H, .compare-custom .facilities p { margin: 0 0 5px 0; height: auto; }
+.compare-custom .info { border: 1px solid #dddddd; }
+.compare-custom .info-line { background: #EFEFEF; border-bottom: solid 1px #C6C6C6; padding: 5px 15px; clear: both; }
+.compare-custom .info-line .info-label { color: #666666; width: 70%; }
+.compare-custom .info-line .info-data { color: #000000; width: 28%; }
+.compare-custom .info-line .info-label, .compare-custom .info-line .info-data { display: inline-block; font-weight: bold; }
+.compare-custom .select-house { padding: 150px 0; }
+.compare-custom .select-house .btn { margin: 10px 0; }

@@ -1,0 +1,84 @@
+body { font-family: Tahoma, Geneva, sans-serif; margin-bottom: 300px; overflow-x: hidden; }
+
+/* up to desktop */
+@media (max-width: 991px) { body { margin-bottom: 500px; } }
+/* up to tablet */
+@media (max-width: 767px) { body { margin-bottom: 740px; } }
+textarea { resize: none; }
+
+.presale-custom-footer { overflow: hidden; }
+.presale-custom-footer .ps-FT-gb-wrap { box-shadow: none; padding-top: 26px; border-top: none; }
+
+.presale-custom { background: #7D7C82; overflow-x: hidden; /* custom */ position: relative; padding: 0; /* helper */ /* (h)ide-(f)from-(s)creen */ /* override bootstrap */ /* form styling */ /* jscrollpane */ /* checkbox */ }
+.presale-custom .nopad { padding-left: 0; padding-right: 0; }
+.presale-custom .nopad-left { padding-left: 0; }
+.presale-custom .nopad-right { padding-right: 0; }
+.presale-custom .padding { padding: 20px; }
+.presale-custom .gridpad { padding: 0 15px; }
+.presale-custom .smallpad { padding: 3px; }
+.presale-custom .h-f-s { visibility: hidden; }
+.presale-custom ::-webkit-input-placeholder { /* WebKit browsers */ color: #333333 !important; }
+.presale-custom :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #333333 !important; }
+.presale-custom ::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #333333 !important; }
+.presale-custom :-ms-input-placeholder { /* Internet Explorer 10+ */ color: #333333 !important; }
+.presale-custom .breadcrumb { padding: 0; line-height: 40px; }
+.presale-custom .bootstrap-select.open, .presale-custom .bootstrap-select.btn-group { margin: 0; width: 100% !important; }
+.presale-custom .bootstrap-select.open .btn, .presale-custom .bootstrap-select.btn-group .btn { border-color: #ADADAD; padding: 2px 35px 2px 10px; font-size: 13px; line-height: 21px; background: #FFFFFF; color: #333333; }
+.presale-custom .bootstrap-select.open .btn .filter-option, .presale-custom .bootstrap-select.btn-group .btn .filter-option { line-height: 28px; color: #333333; }
+.presale-custom .bootstrap-select.open .btn .caret, .presale-custom .bootstrap-select.btn-group .btn .caret { background: url(../img/pre-sale/caret.png) no-repeat left center; width: 23px; height: 23px; display: block; border: none; top: 7px; right: 5px; }
+.presale-custom .column-wrap { width: 1000px; margin: 0 auto; position: relative; }
+.presale-custom .cover-image { width: 1600px; height: 710px; position: relative; left: -300px; }
+.presale-custom .form-group-wrap { max-height: 420px; width: 100%; }
+.presale-custom .form-container { width: 450px; margin-top: 120px; height: 590px; background-color: rgba(255, 255, 255, 0.8); border-bottom: solid 3px #CAE001; margin-bottom: -3px; position: absolute; right: 0; top: 0; z-index: 1; }
+.presale-custom .form-container p { font-family: db_gill_siam_xregular; font-size: 14px; }
+.presale-custom .form-container form { padding: 20px; }
+.presale-custom .form-container label { display: none; }
+.presale-custom .form-container .form-control { border-color: #ADADAD; padding: 4px 12px; width: 100%; font-size: 13px; }
+.presale-custom .form-container .form-group { margin-bottom: 10px; }
+.presale-custom .form-container .form-group-checkbox-wrap label { display: block; }
+.presale-custom .form-container .form-group-checkbox-wrap .form-group-checkbox label { display: inline-block; width: 40%; }
+.presale-custom .form-container .buttons { text-align: center; padding: 20px 0; }
+.presale-custom .presale-style-left p br { display: none; }
+.presale-custom .presale-style-left .form-container { right: auto; left: 0; }
+.presale-custom .presale-style-center .presale-container_wrap { position: relative; }
+.presale-custom .presale-style-center p br { display: none; }
+.presale-custom .presale-style-center .form-container { height: 360px; width: 800px; margin: 0 auto; position: absolute; bottom: 0px; top: auto; left: 100px; right: 100px; }
+.presale-custom .presale-style-center .form-group-wrap { padding-top: 15px; height: 260px; }
+.presale-custom .presale-style-center .buttons { text-align: center; padding: 10px 0; }
+.presale-custom .presale-style-center .form-group { width: 48%; margin: 0 2% 10px 0; float: left; }
+.presale-custom .presale-style-center .form-group-checkbox-wrap { float: left; width: 100%; }
+.presale-custom .jspVerticalBar { width: 10px; }
+.presale-custom .jspDrag { background: #94C23C; }
+.presale-custom .jspTrack { background: #919195; }
+.presale-custom .bootstrap-checkbox { width: 30px; height: 18px; float: left; }
+.presale-custom .bootstrap-checkbox .cb-icon-check, .presale-custom .bootstrap-checkbox .cb-icon-check-empty { width: 18px; height: 18px; background: url(../js/bootstrap-checkbox/img/icon2.png) no-repeat left top; }
+.presale-custom .bootstrap-checkbox .cb-icon-check { background-position: 0 -18px !important; }
+.presale-custom .bootstrap-checkbox .cb-icon-check-empty { background-position: 0 0 !important; }
+.presale-custom .bootstrap-checkbox > .btn.btn-link { padding: 0; }
+
+/* less than desktop */
+@media (max-width: 991px) { .presale-custom .column-wrap { width: 100%; margin: 0 auto; position: relative; }
+  .presale-custom .form-container { min-width: 218px; width: auto; left: 550px; right: 0; }
+  .presale-custom .form-container form { padding: 10px 0 10px 10px; }
+  .presale-custom .form-container .form-group-checkbox-wrap label { display: block; }
+  .presale-custom .form-container .form-group-checkbox-wrap .form-group-checkbox label { display: block; width: 100%; }
+  .presale-custom .presale-style-left .cover-image { left: -383px; }
+  .presale-custom .presale-style-left .form-container { min-width: 218px; width: auto; right: auto; left: 0; }
+  .presale-custom .presale-style-left .form-container form { padding: 10px; }
+  .presale-custom .presale-style-center .presale-container_wrap { position: relative; }
+  .presale-custom .presale-style-center .cover-image { left: -400px; }
+  .presale-custom .presale-style-center .form-container { width: 768px; left: 0; margin: 0 auto; }
+  .presale-custom .presale-style-center .form-group-checkbox-wrap label { display: inline-block; }
+  .presale-custom .presale-style-center .form-group-checkbox-wrap .form-group-checkbox label { display: inline-block; width: 40%; } }
+@media (max-width: 767px) { .presale-custom .presale-container_wrap { background-color: #FFFFFF; }
+  .presale-custom .form-container { left: 0; min-width: 0; width: 100%; height: auto; padding: 12.5px; border-bottom: none; }
+  .presale-custom .form-container form { padding: 12.5px 0; }
+  .presale-custom .presale-style-left .form-container { width: 100%; right: 0; }
+  .presale-custom .presale-style-left .form-container form { padding: 10px; }
+  .presale-custom .presale-style-center { background: url(../img/pre-sale/cover-image-center.jpg) no-repeat center top; }
+  .presale-custom .presale-style-center .form-container { height: auto; width: 100%; top: 0; }
+  .presale-custom .presale-style-center .form-group-wrap { max-height: 600px; height: 600px; }
+  .presale-custom .presale-style-center .column-wrap { width: 100%; height: auto; margin: 0 auto; }
+  .presale-custom .presale-style-center .form-group { width: 100%; margin: 0 0 10px 0; float: none; } }
+/* tablet to desktop */
+@media (max-width: 1199px) and (min-width: 768px) { .presale-custom .column-wrap { padding: 0; } }

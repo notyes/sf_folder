@@ -1,0 +1,33 @@
+.interest-rate .content { background: #eee; }
+.interest-rate .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th { background-color: #eee; }
+
+.ps-bank-list { list-style: none; margin: 0; padding: 0; }
+.ps-bank-list li { margin: 8px 0; min-width: 200px; }
+
+.ps-fn-radio { float: left; margin-right: 12px; background: url("../img/finance/btn-choice.jpg") no-repeat left top; height: 43px; width: 43px; display: block; }
+
+.ps-fn-radio.active, .ps-fn-radio:hover { background: url("../img/finance/btn-choice-ovr.jpg") no-repeat left top; height: 43px; width: 43px; display: block; }
+
+.ps-bank-information { position: relative; display: none; }
+.ps-bank-information h3 { margin: 10px 0; }
+.ps-bank-information h4, .ps-bank-information strong { color: #BA041B; }
+.ps-bank-information h4 { line-height: 1.3em; margin: 0; font-family: inherit; font-size: 13px; font-weight: bold; }
+.ps-bank-information .bold { font-weight: bold; }
+.ps-bank-information .update-date { position: absolute; right: 0; top: 10px; color: #999; font-size: 11px; }
+.ps-bank-information .table tr:first-child th { color: #BA041B; background-color: #E8E8E8; border-bottom: solid 5px #BA041B; }
+.ps-bank-information .table tr:first-child th h3 { color: #BA041B; font-size: 18px; margin: 0; line-height: 13px; }
+.ps-bank-information .table { border-color: #BA041B; }
+.ps-bank-information .table .note { display: block; font-size: 11px; color: #999; margin: 5px 0; }
+.ps-bank-information .table .bank-name { border: 0; }
+.ps-bank-information .table .mark, .ps-bank-information .table .bank-name { border: 0; }
+.ps-bank-information .table .interest { border-width: 0 1px; border-color: #BA041B; }
+
+/*Extra small devices*/
+@media (max-width: 767px) {
+.ps-bank-information .table tr:first-child th h3 { font-size: 14px; }
+}
+/*  Small and Extra small  devices  */
+@media (max-width: 991px) {
+.ps-bank-information .update-date { position: static; }
+}
+

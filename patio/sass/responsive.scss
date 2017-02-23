@@ -1,0 +1,185 @@
+//Import
+@import "_variables";
+@media screen and (max-width: 768px) {
+//Global Override
+	.topPanelContainer{
+		.ps-KS-hd-global-SaT{
+			margin: 0;
+			li {
+				padding: 5px;
+			}
+		}
+		
+	}
+
+	.ps-custom{
+		.footer-icons {
+			.footer-icon{
+				margin: 15px 0;
+			}
+			&.three-icon{
+				.footer-icon{
+					width: 33%;
+					a {
+						.text{
+							padding: 8px;
+						}
+					}
+				}
+			}
+		}
+		.row-btn-search{
+			text-align: center;
+		}
+		.form-group,.filter-area{
+			.bootstrap-select{
+				&.bootstrap-select{
+					&.btn-group{
+						margin: 10px 0;
+					}
+				}
+			}
+			&.btn-wrap{
+				display: inline-block;
+				width: auto;
+				text-align: center;
+				float: none;
+				margin: 10px 0;
+
+			}
+		}
+		.top-nav{
+			.main-menu{
+				> li,.active {
+					a,a:hover,a:focus{
+						padding: 15px;
+					}
+				}
+			}
+		}
+		.home-spec-container{
+			.spec-image-canvas{
+				.dot{
+					display: none;
+				}
+			}
+		}
+	}
+}
+//Mobile
+@media(max-width:575px){
+
+//Override Global
+	.ps-KS-hd-global{
+		.navbar-header{
+			.navbar-toggle{
+				opacity: 0;
+			}
+		}
+	}
+
+//Main Navbar
+	.ps-custom{
+		#main-navbar-toggle{
+			float:none;
+			position: absolute;
+			top: 16px;
+			right: 0;
+			width: 30px;
+			height: 30px;
+			border-color:$border-color;
+			z-index: 9999;
+			padding: 3px;
+			.icon-bar{
+				border-bottom: 2px solid $border-color;
+			}
+			&:hover{
+				opacity: 0.8;
+			}
+		}
+		.top-nav{
+			.main-menu{
+				li,.active{
+					display: block;
+					a,a:hover{
+						text-align: center;
+						padding: 5px 0;
+					}
+				}
+			}
+		}
+	}
+//List item
+	.ps-custom{
+		.list-items{
+			.item{
+				display: block;
+			}
+		}
+	}
+//Form
+	.ps-custom{
+		.form-group,.filter-area{
+			&.btn-wrap{
+				.btn{
+					padding: 0 2px;
+				}
+			}
+		}
+	}
+
+//Footer
+	.ps-custom{
+		.footer-icons{
+		  .footer-icon{
+				margin: 15px 0 10px;
+				text-align: left;
+		  }
+			&.three-icon{
+				.footer-icon{
+					width: 100%;
+					a {
+						.text{
+							padding: 8px 20px;
+						}
+					}
+				}
+			}
+
+		}
+	}
+//Social Bookmark
+	.ps-custom{
+		.social-book-mark{
+			.ps-project-share-Left,.shareBox{
+				display: block;
+			}
+			.ps-project-share-SocialBtn{
+				>span{
+					display: block;
+					margin: 10px auto;
+				}
+			}
+		}
+	}
+
+//Specific Page
+	.ps-custom{
+	  .search-by-map-page{
+	    .filter-result-wrap{
+	      min-height: 0;
+	      margin-bottom: 20px;
+	    }
+	  }
+	  .news-promotion{
+	    .list-items{
+	      li{
+	      	.image,.description{
+	      		text-align: center;
+	      	}
+	      }
+	    }
+	  }
+
+	}
+}

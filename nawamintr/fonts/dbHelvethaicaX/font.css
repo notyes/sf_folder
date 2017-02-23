@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'DB Helvethaica X Reg';
+  src: url('DB Helvethaica X.eot'); /* IE9 Compat Modes */
+  src: url('DB Helvethaica X.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DB Helvethaica X.woff') format('woff'), /* Modern Browsers */
+       url('DB Helvethaica X.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DB Helvethaica X.svg#ac36d5c78f119f40112a192d0270d625') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'DB Helvethaica X Bold';
+  src: url('DB Helvethaica X Bd.eot'); /* IE9 Compat Modes */
+  src: url('DB Helvethaica X Bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DB Helvethaica X Bd.woff') format('woff'), /* Modern Browsers */
+       url('DB Helvethaica X Bd.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DB Helvethaica X Bd.svg#892783b2f385d1b17d12fc6949bc5e54') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'DB Helvethaica X Cond';
+  src: url('DB Helvethaica X Bd Cond.eot'); /* IE9 Compat Modes */
+  src: url('DB Helvethaica X Bd Cond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DB Helvethaica X Bd Cond.woff') format('woff'), /* Modern Browsers */
+       url('DB Helvethaica X Bd Cond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DB Helvethaica X Bd Cond.svg#03a0abacaf3bc5147575f7d9b44f7ede') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'DB Helvethaica X Li Cond';
+  src: url('DB Helvethaica X Li Cond.eot'); /* IE9 Compat Modes */
+  src: url('DB Helvethaica X Li Cond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DB Helvethaica X Li Cond.woff') format('woff'), /* Modern Browsers */
+       url('DB Helvethaica X Li Cond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DB Helvethaica X Li Cond.svg#96da9952ce37275cba4255cb88412ee3') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'DB Helvethaica X Med';
+  src: url('DB Helvethaica X Med.eot'); /* IE9 Compat Modes */
+  src: url('DB Helvethaica X Med.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DB Helvethaica X Med.woff') format('woff'), /* Modern Browsers */
+       url('DB Helvethaica X Med.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DB Helvethaica X Med.svg#f8dd57e6b91d621327e4c9095bddf78a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'DB Helvethaica X Med Cond';
+  src: url('DB Helvethaica X Med Cond.eot'); /* IE9 Compat Modes */
+  src: url('DB Helvethaica X Med Cond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('DB Helvethaica X Med Cond.woff') format('woff'), /* Modern Browsers */
+       url('DB Helvethaica X Med Cond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('DB Helvethaica X Med Cond.svg#1db638c8b83586041c0719fccac59eee') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

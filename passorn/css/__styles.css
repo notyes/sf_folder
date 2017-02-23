@@ -1,0 +1,506 @@
+body { font-family: Tahoma, Geneva, sans-serif; margin-bottom: 300px; background: #291c12 url(../img/bg_body.png) no-repeat left 80px; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; color: #a58b74; }
+
+/* mobile devices */
+@media (max-width: 991px) { body { margin-bottom: 500px; } }
+@media (max-width: 767px) { body { margin-bottom: 760px; } }
+/* DB Gill Siam font */
+.ff-dbGill-lighIt, .ps-custom .searchBox .or { font-family: db_gill_siam_xlightit; }
+
+/* DB Gill Siam - light italic */
+.ff-dbGill-ligh, .ps-custom.home-page .list-items h3, .ps-custom.project-concept-page .main-content h3, .ps-custom.project-house-type-detail-page .main-content .house-type-function h2, .ps-custom.project-house-type-detail-page .main-content .house-type-plan h2 { font-family: db_gill_siam_xlight; }
+
+/* DB Gill Siam - light */
+.ff-dbGill-b { font-family: db_gill_siam_xbold; }
+
+/* DB Gill Siam - bold */
+.ff-dbGill-bIt { font-family: db_gill_siam_xboldit; }
+
+/* DB Gill Siam - bold italic */
+.ff-dbGill-r, body.ps-custom, .ps-custom .masterHead .main-menu a, .ps-custom .project-navbar .main-menu a, .ps-custom .searchBox .findhome, .ps-custom .list-items h3.section-title, .ps-custom .footer-icons a, .ps-custom .main-content h1, .ps-custom .main-content h2 { font-family: db_gill_siam_xregular; }
+
+/* DB Gill Siam - regular */
+/* override header - footer */
+.topPanelContainer { position: relative; z-index: 999; }
+.topPanelContainer .ps-KS-hd { background-image: none; margin: 0; padding: 0; }
+.topPanelContainer .ps-KS-hd-main { display: none; }
+.topPanelContainer .navbar-toggle { visibility: hidden; }
+.topPanelContainer .ps-KS-hd-logo { background-size: 55px 70px; height: 70px; width: 55px; top: 10px; }
+.topPanelContainer .navbar.navbar-default { background-color: #fff; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; }
+.topPanelContainer .navbar.navbar-default .form-control { font-family: Tahoma,Geneva,sans-serif; }
+.topPanelContainer .ps-KS-hd-global-Tel { color: #333; }
+
+.ps-custom-social-icon { min-height: 83px; }
+.ps-custom-social-icon .fb-like-box { padding: 5px; }
+
+@media (max-width: 767px) { .topPanelContainer .ps-KS-hd-global-SaT { margin-right: 0; }
+.topPanelContainer .ps-KS-hd-logo { background-size: 47px 60px; height: 60px; width: 50px; top: 0; } 
+#member-logined-mobile, #member_dialogbox_login_mobile { background-color: #ffffff; padding-bottom : 7px; }}
+.topPanelContainer { background: url(../img/pruksa-nara/db_line.png) repeat-x bottom left; min-height: 87px; padding-bottom: 3px; }
+
+#footer .ps-FT-gb-wrap { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+
+/* end - override header - footer */
+.ps-custom.modal-open { /* all */ /* override bootstrap */ }
+.ps-custom.modal-open .modal-content, .ps-custom.modal-open .compare-content .thumbnail img, .ps-custom.modal-open .tab-content img, .ps-custom.modal-open #ps-image-box .modal-body img { -moz-box-shadow: 0 0 15px 5px rgba(209, 182, 132, 0.5); -webkit-box-shadow: 0 0 15px 5px rgba(209, 182, 132, 0.5); box-shadow: 0 0 15px 5px rgba(209, 182, 132, 0.5); }
+.ps-custom.modal-open #ps-image-box .modal-body { padding: 39px; }
+.ps-custom.modal-open .modal-content { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 2px solid #866F5B;  color: #d1b684; background: #291c12;}
+.ps-custom.modal-open .modal-content .ps-Txt-Green, .ps-custom.modal-open .modal-content .ps-Txt-Green a { color: #d1b684 !important; }
+.ps-custom.modal-open .modal-content .form-container { padding: 39px; }
+.ps-custom.modal-open .modal-content .form-container .checkbox, .ps-custom.modal-open .modal-content .form-container label, .ps-custom.modal-open .modal-content .form-container a { color: #a58b74; }
+.ps-custom.modal-open .modal-content .compare-content { padding: 39px; }
+.ps-custom.modal-open .modal-content .compare-content .wrapper-project-icon, .ps-custom.modal-open .modal-content .compare-content .thumbnail, .ps-custom.modal-open .modal-content .compare-content .info, .ps-custom.modal-open .modal-content .compare-content .info-line { border-color: #a58b74; }
+.ps-custom.modal-open .modal-content .compare-content .js-compare-remove-link { color: #d1b684; }
+.ps-custom.modal-open .modal-content .compare-content .thumbnail { background-color: #291c12; }
+.ps-custom.modal-open .modal-content .compare-content .btn-primary { float: none; position: relative; }
+.ps-custom.modal-open .modal-content .compare-content p { color: #a58b74; }
+.ps-custom.modal-open .modal-content .compare-content .info-line { background-color: #342c23; }
+.ps-custom.modal-open .modal-content .compare-content .info-line .info-label { color: #d1b684; }
+.ps-custom.modal-open .modal-content .compare-content .info-line .info-data { color: #a58b74; }
+.ps-custom.modal-open .modal-content .compare-content .row.buttons { padding-top: 30px; }
+.ps-custom.modal-open .modal-content .tab-content { padding: 0 39px; }
+.ps-custom.modal-open .modal-content .tab-content h5 { text-align: left; font-size: 1.143em; color: #d1b684; margin-bottom: 26px; }
+.ps-custom.modal-open .modal-content .tab-content h5 span { color: #a58b74; }
+.ps-custom.modal-open .modal-header { border-bottom: 1px solid #a58b74; }
+.ps-custom.modal-open .modal-header h3 { margin: 0; }
+.ps-custom.modal-open .close { color: #d1b684; text-shadow: none; opacity: 1; filter: alpha(opacity=100); background: #0C0805; -moz-border-radius: 13px; -webkit-border-radius: 13px; border-radius: 13px; width: 23px; height: 23px; }
+.ps-custom.modal-open .modal-body { font-size: 14px; padding: 0; }
+.ps-custom.modal-open .modal-body .form-horizontal { color: #a58b74; padding-top: 30px; }
+.ps-custom.modal-open .modal-body li { font-size: 0.929em; }
+.ps-custom.modal-open .modal-body li a { color: #d1b684; border: none; }
+.ps-custom.modal-open .modal-body li.active a { color: white; background-color: #a58b74; border: none; }
+.ps-custom.modal-open .modal-body li.active a:hover, .ps-custom.modal-open .modal-body li.active a:focus { border: none; }
+.ps-custom.modal-open .ps-buynow-box .btn-default { float: left; }
+.ps-custom.modal-open .ps-buynow-box .btn-primary { float: right; }
+.ps-custom.modal-open .ps-buynow-box .select-house { padding-top: 150px; }
+.ps-custom.modal-open .ps-favorite .modal-body { color: #a58b74; padding-top: 30px; }
+.ps-custom.modal-open .ps-favorite .modal-body a { color: #d1b684; border: none; }
+.ps-custom.modal-open .ps-favorite .modal-body.active a { color: white; background-color: #a58b74; border: none; }
+.ps-custom.modal-open .ps-favorite .modal-body.active a:hover, .ps-custom.modal-open .ps-favorite .modal-body.active a:focus { border: none; }
+.ps-custom.modal-open .ps-favorite .modal-body .ps-Txt-underline { margin-top: 20px; display: block; }
+.ps-custom.modal-open .modal-footer { border: none; margin-top: 0; }
+.ps-custom.modal-open .form-group .filter-option { color: #d1b684; }
+.ps-custom.modal-open .form-group textarea, .ps-custom.modal-open .form-group input { -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+.ps-custom.modal-open .form-control::-moz-placeholder { color: #1d1d1b; opacity: 1; }
+.ps-custom.modal-open .form-control:-ms-input-placeholder { color: #1d1d1b; }
+.ps-custom.modal-open .form-control::-webkit-input-placeholder { color: #1d1d1b; }
+.ps-custom.modal-open .bootstrap-select.open, .ps-custom.modal-open .bootstrap-select.btn-group { margin: 0 2px; }
+.ps-custom.modal-open .bootstrap-select.open .btn, .ps-custom.modal-open .bootstrap-select.btn-group .btn { -moz-border-radius: 0 !important; -webkit-border-radius: 0 !important; border-radius: 0 !important; padding-left: 10px; font-size: 13px; padding-right: 30px; background: #342c23; color: #a58b74; border: 1px solid #342c23; }
+.ps-custom.modal-open .bootstrap-select.open .btn .filter-option, .ps-custom.modal-open .bootstrap-select.btn-group .btn .filter-option { color: #a58b74; }
+.ps-custom.modal-open .bootstrap-select.open .btn .caret, .ps-custom.modal-open .bootstrap-select.btn-group .btn .caret { background: url(../img/passorn/caret.png) no-repeat left top; width: 16px; height: 8px; border: none; right: 5px; }
+
+.ps-custom { /* custom */ /* helper */ /* override bootstrap */ /* end - override bootstrap */ /* override bxslider */ /* end - override bxslider */ /* gallery */ /* header */ /* end - header */ /* search box */ /* end - searchBox */ /* list-item */ /* end - list-item */ /* footer icon */ /* end - footer icon*/ /* footer */ /* end - footer */ /* page section */ /* end - page section */ }
+.ps-custom .nopad { padding-left: 0; padding-right: 0; }
+.ps-custom .nopad-left { padding-left: 0; }
+.ps-custom .nopad-right { padding-right: 0; }
+.ps-custom .padding { padding: 12.5px; }
+.ps-custom .smallpad { padding: 3px; }
+.ps-custom .h-f-s { visibility: hidden; width: 0.1px; height: 0.1px; overflow: hidden; text-indent: -2000px; }
+.ps-custom .wrapper .form-control::-moz-placeholder { color: #a58b74; opacity: 1; }
+.ps-custom .wrapper .form-control:-ms-input-placeholder { color: #a58b74; }
+.ps-custom .wrapper .form-control::-webkit-input-placeholder { color: #a58b74; }
+.ps-custom .wrapper textarea.form-control { min-height: 105px; }
+.ps-custom #footer .form-control::-moz-placeholder { color: #999; opacity: 1; }
+.ps-custom #footer .form-control:-ms-input-placeholder { color: #999; }
+.ps-custom #footer .form-control::-webkit-input-placeholder { color: #999; }
+.ps-custom .bootstrap-select .btn:focus { outline: none !important; }
+.ps-custom .bootstrap-select.open .btn .caret, .ps-custom .btn-group.bootstrap-select .btn .caret, .ps-custom .load-more-item .caret { background: url(../img/passorn/caret.png) no-repeat left top; width: 16px; height: 8px; border: none; right: 5px; }
+.ps-custom a { outline: 0 !important; }
+.ps-custom a:active { outline: none !important; }
+.ps-custom a:hover { color: #666666; }
+.ps-custom a:focus { -moz-outline-style: none !important; }
+.ps-custom .form-group-inline { margin-bottom: 20px; }
+.ps-custom .form-group-inline .bootstrap-select { margin: 0; }
+.ps-custom .form .form-group:first-child { padding-top: 15px; }
+.ps-custom .form-group { margin-bottom: 20px; }
+.ps-custom .form-group .bootstrap-select { width: 100% !important; margin: 0; }
+.ps-custom .form-group .captcha { margin-bottom: 20px; border: solid 3px #a58b74; }
+.ps-custom .breadcrumbWrap { position: relative; }
+.ps-custom .breadcrumbWrap .breadcrumb { margin-bottom: 0; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; padding: 5px 0; font-size: 0.9em; }
+.ps-custom .breadcrumbWrap .breadcrumb a { color: #a58b74; font-size: 1em; padding: 5px 0; }
+.ps-custom .breadcrumbWrap .breadcrumb li.active { color: white; }
+.ps-custom .wrapper .btn { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; }
+.ps-custom .wrapper .btn.btn-primary, .modal-content .btn-primary { padding: 6px 28px; }
+.ps-custom .wrapper .btn-default { background: #342c23; color: #a58b74; border-color: #342c23; font-size: 0.9em; }
+.ps-custom .wrapper .btn-default:hover, .ps-custom .wrapper .btn-default:focus, .ps-custom .wrapper .btn-default:active, .ps-custom .wrapper .btn-default.active { color: #666666; }
+.ps-custom .wrapper .btn-primary, .modal-content .btn-primary { color: #291c12; border: solid 2px #9A8A76; background: #cfbca9; /* Old browsers */ background: -moz-linear-gradient(top, #cfbca9 0%, #ededed 21%, #dbcebe 43%, #615449 99%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cfbca9), color-stop(21%, #ededed), color-stop(43%, #dbcebe), color-stop(99%, #615449)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #cfbca9 0%, #ededed 21%, #dbcebe 43%, #615449 99%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #cfbca9 0%, #ededed 21%, #dbcebe 43%, #615449 99%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #cfbca9 0%, #ededed 21%, #dbcebe 43%, #615449 99%); /* IE10+ */ background: linear-gradient(to bottom, #cfbca9 0%, #ededed 21%, #dbcebe 43%, #615449 99%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfbca9', endColorstr='#615449',GradientType=0 ); /* IE6-9 */ }
+.ps-custom .wrapper .form-control { background: #342c23; color: #a58b74; border-color: #342c23; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; height: 29px; font-size: 13px; }
+.ps-custom .bx-wrapper { margin: 0 0 35px 0; }
+.ps-custom .bx-wrapper .bx-viewport { margin: 0; padding: 0; background: none; left: 0; border: 0; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+.ps-custom .cover-image { z-index: 1; }
+.ps-custom .cover-image .call-pruksa { position: absolute; z-index: 9999; right: 1px; bottom: 2px; width: 26.9%; height: auto; }
+.ps-custom .cover-image .call-pruksa img { width: 100% !important; height: auto !important; }
+.ps-custom .bxslider-cover-image { margin: 0; list-style: none; padding: 0; margin: 0; }
+.ps-custom .bx-wrapper .bx-pager.bx-default-pager { bottom: -26px; }
+.ps-custom .bx-wrapper .bx-pager.bx-default-pager a { background: #6c5a40; }
+.ps-custom .bx-wrapper .bx-pager.bx-default-pager a:hover, .ps-custom .bx-wrapper .bx-pager.bx-default-pager a.active { background: #d1b684; }
+.ps-custom .image-gallery { border: solid 1px #756B5C; position: relative; }
+.ps-custom .image-gallery img { width: 100%; height: auto; display: block; }
+.ps-custom .image-gallery img.old { z-index: 1; position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 100%; height: auto; }
+.ps-custom .carousel-thumb { background: none; margin: 10px 0 3px 0; }
+.ps-custom .carousel-thumb .item { text-align: center; padding: 0 40px; }
+.ps-custom .carousel-thumb .gallery-list-item { margin-bottom: 10px; }
+.ps-custom .carousel-thumb img { border: solid 1px #756B5C; }
+.ps-custom .carousel-thumb .carousel-control { width: 19px; height: 38px; z-index: 99; top: 58%; margin-top: -30px; }
+.ps-custom .carousel-thumb .carousel-control.left { filter: none; background-position: 0 0; background-image: url(../img/passorn/carousel-control.png); background-repeat: no-repeat; left: 3%; }
+.ps-custom .carousel-thumb .carousel-control.right { filter: none; background-position: -29px 0; background-image: url(../img/passorn/carousel-control.png); background-repeat: no-repeat; right: 3%; }
+.ps-custom .carousel-thumb .carousel-caption { visibility: hidden; }
+.ps-custom .progress-content .gallery-list-item img { width: 80%; }
+.ps-custom h1, .ps-custom h2, .ps-custom h3, .ps-custom h4 { text-transform: uppercase; }
+.ps-custom .search-container .loading-div { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.4); display: none; }
+.ps-custom .search-container .loading-div img { position: relative; left: 50%; top: 100px; margin-left: -16px; }
+.ps-custom .paginationWrap { margin: 0 0 20px 0; position: relative; text-align: center; }
+.ps-custom .paginationWrap .load-more-item { padding-top: 0; padding-bottom: 30px; }
+.ps-custom .paginationWrap .load-more-item a { background-color: #342c23; line-height: 50px; text-align: center; display: block; color: #a58b74; }
+.ps-custom .share-sprite, .ps-custom .social-book-mark .icon.compare, .ps-custom .social-book-mark .icon.favrorite, .ps-custom .social-book-mark .icon.share, .ps-custom .social-book-mark .icon.print { background: url('../img/passorn/share-s594b6ea788.png') no-repeat; }
+.ps-custom .social-book-mark { padding: 20px 0 0 0; /* share button */ }
+.ps-custom .social-book-mark .addthis_toolbox { padding-top: 12px; }
+.ps-custom .social-book-mark .addthis_toolbox > a { float: right; }
+.ps-custom .social-book-mark .shareBox { border-left: solid 1px #7D7668; text-align: left; margin-left: 10px; padding-left: 5px; }
+.ps-custom .social-book-mark .shareBox a { float: left; text-align: center; margin: 0 5px; display: inline-block; font-size: 10px; line-height: 1em; }
+.ps-custom .social-book-mark .shareBox a .ps-Txt-Grey { color: #a58b74 !important; }
+.ps-custom .social-book-mark .icon { width: 34px; height: 24px; margin: 0 auto; display: block; }
+.ps-custom .social-book-mark .icon.compare { background-position: 0 0; width: 31px; }
+.ps-custom .social-book-mark .icon.favrorite { background-position: -31px 0; width: 17px; }
+.ps-custom .social-book-mark .icon.share { background-position: -72px 0; width: 25px; }
+.ps-custom .social-book-mark .icon.print { background-position: -48px 0; width: 24px; }
+.ps-custom .social-book-mark .addthis_button_pinterest_pinit iframe { top: 0; position: relative; }
+.ps-custom .social-book-mark .addthis_button_facebook_like { position: relative; top: 0; }
+.ps-custom .social-book-mark .st_googleplus_hcount .stButton { line-height: 16px; }
+.ps-custom .social-book-mark .shareBox, .ps-custom .social-book-mark .ps-project-share-Left { display: inline-block; }
+.ps-custom .social-book-mark .ps-project-share-Left { position: relative; top: -10px; }
+.ps-custom .social-book-mark .stButton { line-height: 22px; }
+.ps-custom .social-book-mark .stButton .stFb, .ps-custom .social-book-mark .stButton .stTwbutton, .ps-custom .social-book-mark .stButton .stMainServices, .ps-custom .social-book-mark .stButton .stButton_gradient { height: 16px; }
+.ps-custom .masterHead .navbar.navbar-default { border-color: #7B6B59; border-width: 0 0 1px 0; padding-bottom: 19px; margin-bottom: 0; }
+.ps-custom .masterHead .navbar.navbar-default .navbar-header { padding: 41px 0 8px 0; }
+.ps-custom .masterHead .navbar.navbar-default .navbar-collapse { padding-top: 30px; }
+.ps-custom .masterHead .main-menu a { color: #D1B684; padding-left: 5px; font-size: 14px; }
+.ps-custom .project-navbar .navbar.navbar-default { border: none; padding-bottom: 0; }
+.ps-custom .project-navbar .navbar.navbar-default .navbar-header { padding-top: 10px; }
+.ps-custom .project-navbar .navbar.navbar-default .navbar-collapse { padding-top: 25px; }
+.ps-custom .project-navbar .navbar-default .navbar-nav .active { background: #342c23; }
+.ps-custom .project-navbar .main-menu a { color: #a58b74; padding: 10px 10px 8px; }
+.ps-custom .project-navbar .main-menu .nav-item:last-child a { padding-right: 0; }
+.ps-custom .searchBox { margin-bottom: 28px; }
+.ps-custom .searchBox .form-inline { border-bottom: 1px solid #5B4839; }
+.ps-custom .searchBox .form-group { margin: 32px 0 17px 0; padding: 0 5px; }
+.ps-custom .searchBox .form-group:first-child { margin-top: 18px; }
+.ps-custom .searchBox .findhome { font-size: 1.462em; line-height: 1em; }
+.ps-custom .searchBox .findhome span { display: block; padding-left: 9.444%; }
+.ps-custom .searchBox .btn-default { font-size: 1em; padding: 4px 28px 4px 0; }
+.ps-custom .searchBox .btn-default .filter-option { padding-left: 10px; }
+.ps-custom .searchBox .btn-primary { padding: 2px 7.027% 3px 7.027%; }
+.ps-custom .searchBox button.btn-primary { margin-right: 2.7027%; }
+.ps-custom .searchBox a.btn-primary { margin-left: 2.7027%; }
+.ps-custom .searchBox .or { font-weight: bold; }
+.ps-custom .list-items h3.section-title { font-size: 1.4em; }
+.ps-custom .list-items h3.section-title a { color: #a58b74; }
+.ps-custom .list-items .list-item .thumbnail { border: none; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; padding: 0; }
+.ps-custom .list-items .list-item .thumbnail img { width: 100%; height: auto; }
+.ps-custom .list-items .list-item .caption { background-color: #291c12; padding: 15px 0; }
+.ps-custom .list-items .list-item .caption h3, .ps-custom .list-items .list-item .caption h4 { margin-top: 0; font-size: 1.1em; color: white; }
+.ps-custom .list-items .list-item .caption a { color: white; }
+.ps-custom .list-items .list-item .caption p { color: #a58b74; }
+.ps-custom .promo-badge.new, .ps-custom .promo-badge.hot-deals { background: url("../img/passorn/badge-new-hotdeals.png") no-repeat; }
+.ps-custom .promo-badge { position: absolute; right: 12px; top: 0; }
+.ps-custom .promo-badge.new { background-position: 0 -84px; height: 58px; width: 57px; }
+.ps-custom .promo-badge.hot-deals { background-position: 0 0; height: 84px; width: 82px; }  
+.ps-custom .video-frame { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
+.ps-custom .video-frame iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.ps-custom .icon-sprite, .ps-custom .footer-icons .tour-360 i, .ps-custom .footer-icons .appointment i, .ps-custom .footer-icons .price-brochure i, .ps-custom .footer-icons .home-specification i { background: url('../img/passorn/icon-s5e0766036e.png') no-repeat; }
+.ps-custom .footer-icons { margin: 0 -12.5px; padding-top: 0px; padding-bottom: 25px; }
+.ps-custom .footer-icons a { height: 84px; display: block; margin: 0 auto 0 auto; font-size: 17px; line-height: 15px; text-decoration: none; color: #917A67; padding: 24px 0 15px 20px; }
+.ps-custom .footer-icons i { display: inline-block; height: 55px; width: 54px; margin-right: 10px; }
+.ps-custom .footer-icons span { top: -8px; line-height: 20px; display: inline-block; position: relative; }
+.ps-custom .footer-icons .tour-360 i { background-position: 0 -165px; }
+.ps-custom .footer-icons .appointment a { padding-top: 30px; }
+.ps-custom .footer-icons .appointment i { background-position: 0 -110px; }
+.ps-custom .footer-icons .appointment span { top: -14px; }
+.ps-custom .footer-icons .price-brochure a { padding-top: 25px; }
+.ps-custom .footer-icons .price-brochure i { background-position: 0 -55px; }
+.ps-custom .footer-icons .price-brochure span { top: -9px; }
+.ps-custom .footer-icons .home-specification a { padding-top: 27px; }
+.ps-custom .footer-icons .home-specification i { background-position: 0 0; }
+.ps-custom .footer-icons .home-specification span { top: -11px; }
+.ps-custom .main-content h1 { font-size: 1.308em; color: white; }
+.ps-custom .main-content h2 { font-size: 1em; color: white; }
+.ps-custom .back-btn-wrap { margin: 20px 0; }
+.ps-custom.home-page .masterHead .navbar.navbar-default { padding-bottom: 0; border: none; margin-bottom: 20px; }
+.ps-custom.home-page .list-items { margin-top: -20px; }
+.ps-custom.home-page .list-items h3 { padding-top: 43px; background: url(../img/passorn/bg-list-item.png) no-repeat center top; font-size: 1.2em; }
+.ps-custom.home-page .list-items .list-item .caption h4 a { color: #FFF; }
+.ps-custom.home-page .list-items .list-item .caption a { color: #a58b74; }
+.ps-custom.home-page .cover-image { border: none; }
+.ps-custom.home-page .cover-image  .bx-viewport { border: 1px solid #7B6B59; }
+
+.ps-custom.virtual-tour-page .main-content, .ps-custom.price-brochure-page .main-content, .ps-custom.promotions-page .main-content, .ps-custom.news-activities-page .main-content { margin-top: 20px; }
+.ps-custom.virtual-tour-page .main-content h1, .ps-custom.price-brochure-page .main-content h1, .ps-custom.promotions-page .main-content h1, .ps-custom.news-activities-page .main-content h1 { margin-bottom: 16px; }
+.ps-custom.virtual-tour-page .main-content .list-items .list-item .caption, .ps-custom.price-brochure-page .main-content .list-items .list-item .caption, .ps-custom.promotions-page .main-content .list-items .list-item .caption, .ps-custom.news-activities-page .main-content .list-items .list-item .caption { padding-top: px; padding-bottom: 2px; }
+.ps-custom.virtual-tour-page .main-content .list-items .list-item .caption h3, .ps-custom.price-brochure-page .main-content .list-items .list-item .caption h3, .ps-custom.promotions-page .main-content .list-items .list-item .caption h3, .ps-custom.news-activities-page .main-content .list-items .list-item .caption h3 { font-size: 1.077em; }
+.ps-custom.virtual-tour-page .main-content .list-items .list-item .caption h3, .ps-custom.virtual-tour-page .main-content .list-items .list-item .caption a, .ps-custom.price-brochure-page .main-content .list-items .list-item .caption h3, .ps-custom.price-brochure-page .main-content .list-items .list-item .caption a, .ps-custom.promotions-page .main-content .list-items .list-item .caption h3, .ps-custom.promotions-page .main-content .list-items .list-item .caption a, .ps-custom.news-activities-page .main-content .list-items .list-item .caption h3, .ps-custom.news-activities-page .main-content .list-items .list-item .caption a { color: #a58b74; text-align: center; text-transform: capitalize; }
+.ps-custom.price-brochure-page .main-content .list-items .list-item .caption h3 { text-align: left; color: white; margin-bottom: 3px; }
+.ps-custom.price-brochure-page .main-content .list-items .list-item .caption a { text-decoration: underline; }
+.ps-custom.news-activities-page .main-content .list-items .list-item .caption h3, .ps-custom.news-activities-page .main-content .list-items .list-item .caption a { color: white; text-align: left; }
+.ps-custom.virtual-tour-detail-page .main-content h1, .ps-custom.virtual-tour-video-detail-page .main-content h1 { margin-top: 7px; }
+.ps-custom.virtual-tour-detail-page .main-content .video-frame, .ps-custom.virtual-tour-video-detail-page .main-content .video-frame { border: 10px solid #7B6B59; }
+.ps-custom.virtual-tour-detail-page .main-content .social-book-mark .shareBox a, .ps-custom.virtual-tour-video-detail-page .main-content .social-book-mark .shareBox a { display: none; }
+.ps-custom.virtual-tour-detail-page .main-content .social-book-mark .shareBox a.share-link, .ps-custom.virtual-tour-video-detail-page .main-content .social-book-mark .shareBox a.share-link { display: inline-block; }
+.ps-custom.promotion-detail-page .main-content, .ps-custom.news-activities-detail-page .main-content { margin-bottom: 45px; }
+.ps-custom.promotion-detail-page .main-content h1, .ps-custom.news-activities-detail-page .main-content h1 { margin-bottom: 16px; }
+.ps-custom.promotion-detail-page .main-content .social-book-mark .shareBox a, .ps-custom.news-activities-detail-page .main-content .social-book-mark .shareBox a { display: none; }
+.ps-custom.promotion-detail-page .main-content .social-book-mark .shareBox a.share-link, .ps-custom.promotion-detail-page .main-content .social-book-mark .shareBox a.print-link, .ps-custom.news-activities-detail-page .main-content .social-book-mark .shareBox a.share-link, .ps-custom.news-activities-detail-page .main-content .social-book-mark .shareBox a.print-link { display: inline-block; }
+.ps-custom.promotion-detail-page .main-content p, .ps-custom.news-activities-detail-page .main-content p { margin-bottom: 20px; }
+.ps-custom.virtual-tour-video-detail-page .back-btn-wrap, .ps-custom.promotion-detail-page .back-btn-wrap, .ps-custom.news-activities-detail-page .back-btn-wrap, .ps-custom.about-us-page .back-btn-wrap { margin-top: 25px; margin-bottom: 45px; }
+.ps-custom.virtual-tour-video-detail-page .back-btn-wrap a.js-back-btn, .ps-custom.promotion-detail-page .back-btn-wrap a.js-back-btn, .ps-custom.news-activities-detail-page .back-btn-wrap a.js-back-btn, .ps-custom.about-us-page .back-btn-wrap a.js-back-btn { color: #a58b74; text-transform: uppercase; }
+.ps-custom.virtual-tour-video-detail-page .back-btn-wrap .glyphicon, .ps-custom.promotion-detail-page .back-btn-wrap .glyphicon, .ps-custom.news-activities-detail-page .back-btn-wrap .glyphicon, .ps-custom.about-us-page .back-btn-wrap .glyphicon { display: none; }
+.ps-custom .project-content { padding-bottom: 40px; }
+.ps-custom .project-content h1 { margin-bottom: 30px; }
+.ps-custom.project-progress-page .progress-item { margin-bottom: 30px; }
+.ps-custom.project-progress-page .progress-item .month { position: relative; top: -5px; }
+.ps-custom.project-progress-page .progress-item .year { font-size: 30px; font-weight: bold; }
+.ps-custom.project-location-page .map-image { position: relative; }
+.ps-custom.project-location-page .map-image img { width: 100%; height: auto; }
+.ps-custom.project-location-page .map-image .btn { position: absolute; left: 10px; bottom: 10px; background: #291c12; color: #ffffff; }
+.ps-custom.project-location-page .map-image .btn-print { left: 175px; }
+.ps-custom.project-location-page .map-button { text-align: right; padding-right: 15px; }
+.ps-custom.project-location-page .map-button .btn { margin-bottom: 20px; margin-left: 10px; }
+.ps-custom.project-location-page .map-button .btn.active { background: #333333; color: white; font-weight: bold; }
+.ps-custom.make-an-appointment-page .info { font-size: 0.85em; margin-top: -10px; margin-bottom: 15px; }
+.ps-custom.make-an-appointment-page .btn-default .filter-option { padding-left: 10px; }
+.ps-custom.project-concept-page h1 { margin-top: 28px; }
+.ps-custom.project-concept-page h2 { color: #FFF; }
+.ps-custom.project-concept-page h2 { font-size: 1.1em; }
+.ps-custom.project-concept-page .social-book-mark .shareBox a { display: none; }
+.ps-custom.project-concept-page .social-book-mark .shareBox a.share-link, .ps-custom.project-concept-page .social-book-mark .shareBox a.favrorite-link, .ps-custom.project-concept-page .social-book-mark .shareBox a.print-link { display: inline-block; }
+.ps-custom.project-concept-page .cover-image { border: solid 1px #998A76; }
+.ps-custom.project-concept-page .cover-image .register_banner { right: 0; left: auto; height: auto; margin-right: 10px; margin-bottom: 0; }
+.ps-custom.project-concept-page .main-content p.line { border-bottom: solid 1px #473E34; padding-bottom: 33px; }
+.ps-custom.project-concept-page .main-content h3 { padding-top: 43px; background: url(../img/passorn/bg-list-item.png) no-repeat center top; font-size: 1.2em; }
+.ps-custom.project-progress-page .project-content .progress-item.first { margin-top: 32px; }
+.ps-custom.project-house-type-page .main-content h1 { margin-bottom: 23px; }
+.ps-custom.project-house-type-detail-page .main-content h1 { margin-top: 28px; margin-bottom: 24px; }
+.ps-custom.project-house-type-detail-page .main-content h2 { color: #a58b74; }
+.ps-custom.project-house-type-detail-page .main-content .house-type-des h2 { border-bottom: none; text-transform: none; font-size: 1.462em; margin-bottom: 15px; }
+.ps-custom.project-house-type-detail-page .main-content .house-type-function h2, .ps-custom.project-house-type-detail-page .main-content .house-type-plan h2 { border-bottom: 1px solid #4A3C2E; font-size: 1em; font-weight: bold; text-align: center; background: url(../img/passorn/bg-list-item.png) no-repeat center top; padding: 37px 0 8px 0; margin-top: 2px; }
+.ps-custom.project-house-type-detail-page .main-content .house-type-plan .plan-image-list { padding-top: 20px; }
+.ps-custom.project-house-type-detail-page .main-content .house-type-plan .plan-image img { border: 2px solid #7B6B59; }
+.ps-custom.project-house-type-detail-page .main-content .house-type-plan .plan-image span { display: none; }
+.ps-custom.project-house-type-detail-page .main-content .cover-image .call-pruksa { bottom: 2px; right: 1px; }
+.ps-custom.project-house-type-detail-page .main-content .cover-image .bx-viewport { border: 1px solid #7B6B59; }
+.ps-custom.project-house-type-detail-page .func-icon-sprite, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-a, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-b, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-c, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-d, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-e, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-f, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-g, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-h, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-i, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-j, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-k, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-l, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-m, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-n, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-o, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-p, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-q, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-r, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-s, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-t, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-u, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-v, .ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-w { background: url('../img/passorn/func-icon-se44c5e0d1a.png') no-repeat; }
+.ps-custom.project-house-type-detail-page .func-list { list-style: none; margin: 0; padding: 10px 0 0 20px; }
+.ps-custom.project-house-type-detail-page .func-list li { padding: 10px 0 0 0; line-height: 30px; }
+.ps-custom.project-house-type-detail-page .func-list .number { font-size: 1.846em; height: 30px; color: #D1B684; }
+.ps-custom.project-house-type-detail-page .func-list .func-label { font-size: 0.923em; line-height: 1.167em; color: #a58b74; min-width: 45px; max-width: 90px; }
+.ps-custom.project-house-type-detail-page .func-list .func-icon { height: 40px; }
+.ps-custom.project-house-type-detail-page .func-list .func-detail { float: left; margin-left: 10px; }
+.ps-custom.project-house-type-detail-page .func-list .number, .ps-custom.project-house-type-detail-page .func-list .func-label { float: none; display: inline-block; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-a { background-position: 0 -630px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-b { background-position: 0 -660px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-c { background-position: 0 -600px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-d { background-position: 0 -570px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-e { background-position: 0 -540px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-f { background-position: 0 -300px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-g { background-position: 0 -150px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-h { background-position: 0 -420px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-i { background-position: 0 -330px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-j { background-position: 0 -120px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-k { background-position: 0 -360px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-l { background-position: 0 -240px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-m { background-position: 0 -510px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-n { background-position: 0 -390px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-o { background-position: 0 -60px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-p { background-position: 0 -270px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-q { background-position: 0 -180px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-r { background-position: 0 -90px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-s { background-position: 0 -450px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-t { background-position: 0 0; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-u { background-position: 0 -30px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-v { background-position: 0 -480px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .func-list .spt-ps-function-ic-w { background-position: 0 -210px; width: 40px; height: 30px; display: inline-block; vertical-align: top; margin-right: 0; }
+.ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default, .ps-custom.project-location-page .project-navbar .navbar.navbar-default, .ps-custom.project-facilities-page .project-navbar .navbar.navbar-default { border-bottom: solid 1px #473E34; margin-top: 25px;}
+.ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.project-location-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.project-facilities-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default .container-fluid, .ps-custom.home-specification-page .project-navbar .navbar.navbar-default .container-fluid { padding: 0; }
+.ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.project-location-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.project-facilities-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default .navbar-brand, .ps-custom.home-specification-page .project-navbar .navbar.navbar-default .navbar-brand { margin-left: 0; }
+.ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-location-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-facilities-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.home-specification-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse { margin-right: 0; padding-right: 0; padding-top: 13px; padding-left: 0; position: relative; }
+.ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-location-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-facilities-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.home-specification-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu { margin-right: 0; }
+.ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.project-location-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.project-facilities-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default .navbar-header, .ps-custom.home-specification-page .project-navbar .navbar.navbar-default .navbar-header { padding: 4px 0 11px 0; }
+.ps-custom.project-concept-page .cover-image img { border: 1px solid #7B6B59; }
+.ps-custom.project-concept-page .project-navbar .navbar.navbar-default .navbar-header { padding: 10px 0; }
+.ps-custom .facilities-sprite, .ps-custom.project-facilities-page .fac-cctv i, .ps-custom.project-facilities-page .fac-club-house i, .ps-custom.project-facilities-page .fac-fitness i, .ps-custom.project-facilities-page .fac-key-card i, .ps-custom.project-facilities-page .fac-park i, .ps-custom.project-facilities-page .fac-security i, .ps-custom.project-facilities-page .fac-swimming-pool i { background: url('../img/passorn/facilities-s23341cfc25.png') no-repeat; }
+.ps-custom.project-facilities-page .fac-list { padding-top: 15px; }
+.ps-custom.project-facilities-page .fac-list span { margin-bottom: 20px; line-height: 40px; display: block; }
+.ps-custom.project-facilities-page .fac-list i { width: 40px; height: 40px; display: block; float: left; margin-right: 10px; }
+.ps-custom.project-facilities-page .fac-cctv i { background-position: 0 -240px; }
+.ps-custom.project-facilities-page .fac-club-house i { background-position: 0 -120px; }
+.ps-custom.project-facilities-page .fac-fitness i { background-position: 0 -40px; }
+.ps-custom.project-facilities-page .fac-key-card i { background-position: 0 0; }
+.ps-custom.project-facilities-page .fac-park i { background-position: 0 -160px; }
+.ps-custom.project-facilities-page .fac-security i { background-position: 0 -200px; }
+.ps-custom.project-facilities-page .fac-swimming-pool i { background-position: 0 -80px; }
+.ps-custom.search-by-map-page .refine-column { margin: 45px 0 10px 0; }
+.ps-custom.search-by-map-page #map-canvas { border: 2px solid #a58b74; margin-bottom: 61px; }
+.ps-custom.search-by-map-page .filter-area, .ps-custom.search-by-map-page .filter-or, .ps-custom.search-by-map-page .filter-result-wrap { width: 82.63%; margin: 0 auto; }
+.ps-custom.search-by-map-page .filter-area .btn-group, .ps-custom.search-by-map-page .filter-or p, .ps-custom.search-by-map-page .filter-result { width: 100% !important; }
+.ps-custom.search-by-map-page .filter-area { text-align: center; }
+.ps-custom.search-by-map-page .filter-area .btn-group { text-align: left; margin-bottom: 6px; }
+.ps-custom.search-by-map-page .filter-area .btn.dropdown-toggle { padding-left: 9px; background-color: #977E6A; color: #342C23; }
+.ps-custom.search-by-map-page .filter-area .btn.dropdown-toggle .caret { background: url(../img/passorn/caret_map.png) no-repeat 0 0; width: 17px; height: 9px; right: 10px; }
+.ps-custom.search-by-map-page .filter-area .dropdown-menu li a { padding-left: 9px; }
+.ps-custom.search-by-map-page .filter-or p { text-align: right; }
+.ps-custom.search-by-map-page .filter-result { background-color: #977E6A; margin: 18px auto 0 auto; }
+.ps-custom.search-by-map-page .filter-result ul { padding: 4px 0 4px 10px; list-style-type: none; }
+.ps-custom.search-by-map-page .filter-result li { padding: 2px 0; }
+.ps-custom.search-by-map-page .filter-result a { color: #342C23; }
+
+/* import home spec */
+/* home-specification */
+.homespec-page-wrapper { color: #A58B74; }
+.homespec-page-wrapper h2 { margin: 0 0 20px; }
+.homespec-page-wrapper .home-spec-container-wrapper { position: relative; padding-top: 10px; }
+.homespec-page-wrapper .home-spec-container { background-color: #291C12; border: solid 1px #7B6B59; margin: 0; position: relative; }
+.homespec-page-wrapper .spec-image { padding: 0; }
+.homespec-page-wrapper .spec-image-canvas { position: relative; }
+.homespec-page-wrapper .spec-image-canvas img { width: 100%; height: auto; }
+.homespec-page-wrapper .spec-image-canvas .dot { position: absolute; background: url(../img/passorn/home-spec/dot.png) no-repeat left top; width: 23px; height: 23px; display: block; cursor: pointer; cursor: hand; -webkit-box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.65); -moz-box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.65); box-shadow: 1px 3px 6px 0px rgba(0, 0, 0, 0.65); border-radius: 15px; }
+.homespec-page-wrapper .spec-image-canvas .dot.active, .homespec-page-wrapper .spec-image-canvas .dot:hover { background-position: 0 -23px; }
+.homespec-page-wrapper .spec-image-canvas .dot.buyable, .homespec-page-wrapper .spec-image-canvas .dot.buyable:hover { background-position: 0 -46px; }
+.homespec-page-wrapper .buyable-container { display: none; position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100%; height: 100%; overflow: hidden; background-color: #291C12; }
+.homespec-page-wrapper .buyable-container .buy-div { position: absolute; bottom: 10px; right: 0px; padding: 0 10px; }
+.homespec-page-wrapper .home-spec-main .buy-div { padding-top: 20px; }
+.homespec-page-wrapper .buynow { margin-right: 0; text-indent: 0; padding: 2px 10px; font-size: 13px; line-height: 21px; border-radius: 0; }
+.homespec-page-wrapper .how_to_buy { line-height: 31px; }
+.homespec-page-wrapper .how_to_buy .glyphicon { font-size: 1.1em; top: 3px; color: #D1B684; }
+.homespec-page-wrapper .how_to_buy span { line-height: 31px; display: inlin-block; font-size: .85em; color: #D1B684; }
+.homespec-page-wrapper .buyable-container .part-img { display: none; }
+.homespec-page-wrapper .buyable-container .part-img img { max-width: 9999px; width: 100%; }
+.homespec-page-wrapper .buyable-container .btn-back { height: 31px; background: none; left: 20px; bottom: 0; color: #399ac1; text-indent: 0; font-size: 1.077em; text-transform: uppercase; color: #a58b74; }
+.homespec-page-wrapper .spec-detail h3 { font-size: 20px; margin: 0 0 10px 0; }
+.homespec-page-wrapper .spec-detail-inner { padding: 12.5px; color: #A58B74; }
+.homespec-page-wrapper .spec-detail-inner h3 { color: #d1b684; }
+.homespec-page-wrapper .spec-detail-inner td, .homespec-page-wrapper .spec-detail-inner th { color: #A58B74; }
+.homespec-page-wrapper .spec-detail-inner .part-desc { font-size: .8em; }
+.homespec-page-wrapper .spec-detail-content .part-name { display: none; }
+.homespec-page-wrapper .spec-detail-content p strong { color: #d1b684; }
+.homespec-page-wrapper .spec-detail-content .memberprice { color: #f00; font-weight: bold; }
+.homespec-page-wrapper .spec-detail .part-img { padding: 10px 0; }
+.homespec-page-wrapper .spec-detail .part-img img { border: solid 1px #C6B389; max-width: 9999px; width: 100%; }
+.homespec-page-wrapper .spec-image-data { padding-bottom: 10px; }
+.homespec-page-wrapper .spec-image-data .pointx { margin: 10px 0 20px 0; }
+.homespec-page-wrapper .spec-image-data h4 { font-size: 14px; }
+.homespec-page-wrapper .spec-image-data .part-img { padding: 10px 0; }
+.homespec-page-wrapper .spec-image-data .part-img img { width: 100%; height: auto; }
+.homespec-page-wrapper .controller-prev, .homespec-page-wrapper .controller-next { background: #a58b74 url(../img/passorn/home-spec/next-prev-icon.png) no-repeat left top; position: absolute; right: 0; bottom: 0; width: 24px; height: 24px; display: block; }
+.homespec-page-wrapper .controller-prev { right: 25px; background-position: 0 0; }
+.homespec-page-wrapper .controller-next { background-position: -25px 0; }
+.homespec-page-wrapper .item-description { color: #A58B74; width: 100%; }
+.homespec-page-wrapper .item-description table { color: #A58B74; border-spacing: 0; border-collapse: collapse; margin-bottom: 12.5px; }
+.homespec-page-wrapper .item-description .col-name { width: 130px; }
+.homespec-page-wrapper .ps-project-gall-bx-thmb a { float: left; margin-right: 20px; position: relative; width: 182px; position: relative; }
+.homespec-page-wrapper .bx-wrapper { padding: 28px 90px; border-bottom: none; }
+.homespec-page-wrapper .bx-wrapper .img-fullsize img, .homespec-page-wrapper .bx-wrapper .fullsize img { border: solid 1px #7B6B59; }
+.homespec-page-wrapper .bx-wrapper .bx-viewport { box-shadow: none; left: 0; border: none; }
+.homespec-page-wrapper .bx-wrapper .caption { background-color: #776A5A; opacity: .7; position: absolute; bottom: 0; left: 0; right: 0; display: block; line-height: 25px; color: #FFFFFF; font-size: 14px; padding: 0 5px; }
+.homespec-page-wrapper .bx-wrapper .bx-controls-direction { width: 19px; height: 38px; z-index: 99; top: 58%; margin-top: -30px; }
+.homespec-page-wrapper .bx-wrapper .bx-controls-direction a { height: 44px; width: 29px; }
+.homespec-page-wrapper .bx-wrapper .bx-prev { background-position: 0 0; background-image: url(../img/passorn/carousel-control.png); background-repeat: no-repeat; left: 3%; }
+.homespec-page-wrapper .bx-wrapper .bx-next { background-position: -29px 0; background-image: url(../img/passorn/carousel-control.png); background-repeat: no-repeat; right: 3%; }
+.homespec-page-wrapper .bx-wrapper .bx-next:hover { background-position: -29px 0; }
+.homespec-page-wrapper #ps-how-to-buy-box .tab-pane img { width: 100%; height: auto; }
+.homespec-page-wrapper #ps-buynow-box .promo-code-container { width: 300px; margin-bottom: 10px; line-height: 30px; text-align: center; border: solid 1px #ccc; }
+.homespec-page-wrapper #ps-buynow-box .promo-code-label { float: left; width: 50%; background: #eee; }
+.homespec-page-wrapper #ps-buynow-box .promo-code { float: left; width: 50%; }
+
+.cloud-zoom-lens, .cloud-zoom-big { border: none !important; }
+
+.ps-buynow-box .btn-group.bootstrap-select { width: 100% !important; margin: 0; }
+.ps-buynow-box label { display: none; }
+.ps-buynow-box .checkbox label { display: block; }
+.ps-buynow-box .checkbox a { text-decoration: underline; }
+
+.ps-how-to-buy-box .tab-pane { padding: 30px 0 38px 0; text-align: center; }
+.ps-how-to-buy-box .tab-pane img { margin: 0 auto; }
+.ps-how-to-buy-box #step_tab { padding-left: 15px; border-bottom: 1px solid #a58b74; }
+.ps-how-to-buy-box #step_tab li { margin: 0 5px; }
+.ps-how-to-buy-box #step_tab li a { border-radius: 0; }
+
+/* less than desktop */
+@media (max-width: 992px) { .homespec-page-wrapper .spec-image-canvas .dot, .homespec-page-wrapper .controller, .homespec-page-wrapper .buyable-container { display: none !important; }
+  .homespec-page-wrapper .buy-div .btn { padding: 6px 12px; } }
+/* end-home-specification */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .ps-custom { zoom: 1; } }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { .ps-custom { zoom: 1; }
+  .container { padding-left: 15px; padding-right: 15px; }
+  .project-navbar #main-project-navbar-collapse { margin-right: -10px; }
+  .project-concept-page .project-navbar .navbar.navbar-default { font-size: .95em; }
+  .logo-project { background: url("../img/passorn/logo_project.png") no-repeat left top; width: 257px; height: 47px; display: inline-block; } }
+/* Medium devices (desktops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) { .ps-custom.project-house-type-detail-page .project-content .col-md-offset-1 { margin-left: 4.33333%; width: 70.6667%; }
+  .ps-custom .searchBox .btn-primary, .ps-custom .searchBox .or { margin: 0 !important; }
+  .ps-custom .searchBox button.btn-primary, .ps-custom .searchBox a.btn-primary { padding-left: 6.44% !important; padding-right: 6.44% !important; } }
+/* Medium devices (768px and up) */
+@media (min-width: 768px) { .ps-custom .masterHead .navbar-brand { background: url("../img/passorn/logo.png") no-repeat left top; width: 335px; height: 55px; }
+  .ps-custom .masterHead .navbar.navbar-default { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; background-color: transparent; }
+  .ps-custom .masterHead #main-navbar-collapse { margin-right: -30px; position: absolute; right: 0; }
+  .ps-custom .masterHead .main-menu .nav-item.active a { background-color: transparent; }
+  .ps-custom .masterHead .main-menu .nav-item a:hover { background-color: transparent; color: #666666; }
+  .ps-custom .project-navbar .navbar.navbar-default { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; background-color: transparent; }
+  .ps-custom .project-navbar #main-project-navbar-collapse { position: absolute; right: 0; }
+  .ps-custom .project-navbar .main-menu .nav-item.active a { background-color: transparent; }
+  .ps-custom .project-navbar .main-menu .nav-item a:hover { background-color: transparent; color: #666666; }
+  .ps-custom.project-house-type-page .project-navbar .navbar-brand, .ps-custom.project-location-page .project-navbar .navbar-brand, .ps-custom.project-facilities-page .project-navbar .navbar-brand, .ps-custom.project-gallery-page .project-navbar .navbar-brand, .ps-custom.project-progress-page .project-navbar .navbar-brand, .ps-custom.project-house-type-detail-page .project-navbar .navbar-brand, .ps-custom.project-concept-page .project-navbar .navbar-brand, .ps-custom.home-specification-page .project-navbar .navbar-brand { background: url("../img/passorn/logo_project.png") no-repeat left top; width: 257px; height: 47px; display: inline-block; }
+  .ps-custom.search-by-map-page .filter-result { min-height: 338px; } }
+/* Small devices (768px to 1000px) */
+@media (max-width: 1000px) and (min-width: 768px) { .ps-custom .searchBox { padding: 20px 12.5px; }
+  .ps-custom .searchBox .form-group { margin-bottom: 20px; }
+  .ps-custom .masterHead .main-menu .nav-item a { font-size: 0.8em; padding-left: 0; }
+  .ps-custom.project-house-type-detail-page .house-type-plan .plan-image { text-align: center; padding-bottom: 10px; }
+  .ps-custom.project-house-type-detail-page .project-content .col-md-offset-1 { margin-left: 7.33333%; }
+  .ps-custom.project-house-type-detail-page .project-content .col-xs-12.col-sm-6:first-child { width: 51%; }
+  .ps-custom.project-house-type-detail-page, .ps-custom.project-concept-page { /*.project-navbar .main-menu .nav-item a {font-size: 0.846em; padding: 5px;}*/ } }
+/* Small devices (less than 992px) */
+@media (max-width: 991px) { .ps-custom.project-house-type-detail-page .project-content .col-md-offset-1 { margin-left: 0; }
+  .ps-custom.project-house-type-detail-page .project-content .col-xs-12.col-sm-6:first-child { width: 50%; }
+  .ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-location-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse { width: 100%; padding: 13px 0 16px 0; position: relative; }
+  .ps-custom.project-house-type-detail-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-concept-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-gallery-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-house-type-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-location-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu, .ps-custom.project-progress-page .project-navbar .navbar.navbar-default #main-project-navbar-collapse .main-menu { width: 100%; }
+  .ps-custom .searchBox .form-group { margin: 0 0 10px 0; }
+  .ps-custom .searchBox .findhome span { display: inline; padding: 0; } }
+/* Small devices (less than 768px) */
+@media (max-width: 767px) { .ps-custom #main-navbar-collapse, .ps-custom #main-project-navbar-collapse { padding-left: 15px; padding-right: 15px; border-top: 0; clear: both; float: none !important; }
+  .ps-custom .masterHead .navbar { min-height: 0; }
+  .ps-custom .masterHead .navbar-header { display: none; }
+  .ps-custom .masterHead .col-xs-12 .visible-xs.text-center { text-align: left; padding: 41px 0 8px 0; border-bottom: 1px solid #7B6B59; }
+  .ps-custom .project-navbar .navbar { min-height: 0; }
+  .ps-custom .project-navbar .navbar-header { display: none; }
+  .ps-custom .project-navbar .visible-xs.brand { padding: 27px 0 10px 0; }
+  .ps-custom .project-navbar .visible-xs.brand a { font-size: 1.462em; color: #a58b74 !important; }
+  .ps-custom .project-navbar .main-menu { margin-left: 0; }
+  .ps-custom .project-navbar .main-menu .active a { background: #342c23; }
+  .ps-custom #main-navbar-toggle { z-index: 999; background: url(../img/passorn/menu.png) no-repeat center 5px; width: 42px; height: 38px; border: solid 1px #DDDDDD; margin-right: 0; top: 10px; right: 12.5px; position: absolute; }
+  .ps-custom #project-navbar-toggle { z-index: 999; background: url(../img/passorn/caret.png) no-repeat center center; width: 42px; height: 30px; border: solid 2px #a58b74; margin-right: 0; top: 10px; right: 12.5px; position: absolute; }
+  .ps-custom .navbar-default { margin-bottom: 0; background-color: transparent; border: none; float: none !important; }
+  .ps-custom .logo-xs { background: url("../img/passorn/logo.png") no-repeat left top; width: 335px; height: 55px; display: inline-block; }
+  .ps-custom .footer-icons { padding-bottom: 30px; padding-top: 30px;}
+  .ps-custom .footer-icons .footer-icon { padding: 6px 12.5px; border-top: 2px solid #a58b74; }
+  .ps-custom .footer-icons .footer-icon.col-xs-12.col-sm-4 a { padding-top: 15px; }
+  .ps-custom .searchBox { padding: 0 12.5px; }
+  .ps-custom .searchBox span.or { margin-right: 10px; }
+  .ps-custom .searchBox button.btn-primary, .ps-custom .searchBox a.btn-primary { margin: 0 10px 10px 0; }
+  .ps-custom .main-content h1 { margin-top: 20px; }
+  .ps-custom.project-progress-page .main-content { padding-bottom: 0; }
+  .ps-custom.project-progress-page .date { text-align: left; }
+  .ps-custom.contact-us-page .bootstrap-select { width: 100% !important; }
+  .ps-custom .social-book-mark { height: auto; overflow: visible; }
+  .ps-custom .social-book-mark .ps-project-share-Left { margin-top: 0; display: block; top: 0; float: none; }
+  .ps-custom .social-book-mark .ps-project-share-Left .list-inline li { width: 100%; }
+  .ps-custom .social-book-mark .shareBox { float: none; border: none; margin: 0; padding: 0 0 10px 0; display: block; text-align: center; }
+  .ps-custom .social-book-mark .ps-project-share-Left li, .ps-custom .social-book-mark .st_facebook_hcount, .ps-custom .social-book-mark .st_twitter_hcount, .ps-custom .social-book-mark .st_pinterest_hcount, .ps-custom .social-book-mark .st_googleplus_hcount { display: inline-block; float: none; text-align: center; }
+  .ps-custom .social-book-mark .ps-project-share-SocialBtn > * { margin-bottom: 15px; }
+  .ps-custom .social-book-mark .border-right { border: none; }
+  .ps-custom .social-book-mark .shareBox a { display: inline-block; float: none; }
+  .ps-custom .home-page-wrapper .list-items { margin-top: 0; }
+  .ps-custom.project-house-type-detail-page .project-content .col-xs-12.col-sm-6:first-child { width: 100%; }
+  .ps-custom.project-house-type-detail-page .func-list .func-label { max-width: 100%; }
+  .ps-custom.search-by-map-page .filter-area, .ps-custom.search-by-map-page .filter-or, .ps-custom.search-by-map-page .filter-result-wrap { width: 100%; }
+  .ps-custom.modal-open .modal-body .form-horizontal { padding-left: 12.5px; padding-right: 12.5px; } }
+.msie8 .loading-div { background: white; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)"; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40); opacity: 0.4; }

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Kittithada Light 45 P';
+  src: url('kit45p.eot'); /* IE9 Compat Modes */
+  src: url('kit45p.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('kit45p.woff') format('woff'), /* Modern Browsers */
+       url('kit45p.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('kit45p.svg#7b0cf6aba0deaa9b557a931966e329ea') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Kittithada Medium 65 P';
+  src: url('kit65p.eot'); /* IE9 Compat Modes */
+  src: url('kit65p.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('kit65p.woff') format('woff'), /* Modern Browsers */
+       url('kit65p.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('kit65p.svg#a977a63e5d9b19ae654ca09db5519e79') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

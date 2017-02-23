@@ -1,0 +1,34 @@
+
+/* index Highlight slider with register box*/
+.PRS-high-slider  { overflow: hidden; padding:10px 0;background-color:#fff; position:relative; margin-bottom:20px;}
+.PRS-high-slider-inner {position:relative; overflow:hidden; padding:0 10px}
+.PRS-high-slider .bx-wrapper .bx-viewport { background: none; border: none; box-shadow: none; left: 0;}
+.PRS-high-slider ul { margin-top:0;margin-bottom: 0;  padding:0;}
+.PRS-high-slider .bx-wrapper img { margin-left:auto; margin-right:auto;}
+.PRS-high-slider .PRS-high-tag-LT { position:absolute; left:0; top:0; z-index: 1000}
+.PRS-high-slider .PRS-high-regis { position:absolute; right:0; top:0; width:262px; height:100%;}
+.PRS-high-slider .PRS-high-regis-inner { padding:10px; /*min-height:379px;*/}
+.PRS-high-slider .PRS-high-regis .PRS-high-regis-label { display:table;width: 100%; padding:5px 10px; margin-bottom:20px; position:relative ;}
+.PRS-high-slider .PRS-high-regis .PRS-high-regis-label label { white-space: nowrap;font:14px/20px 'db_gill_siam_xregular';display: table-cell; background:#fff; padding:3px 5px; color:#0000; width: 1%;}
+.PRS-high-slider .PRS-high-regis .PRS-high-regis-label label + input { display: table-cell;border:none; outline:none; background:none; width:100%;}
+.PRS-high-slider .bx-wrapper { margin:0;}
+.PRS-high-slider .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto { bottom:5px;}
+.PRS-high-slider .bx-wrapper .bx-pager { z-index:100;}
+.PRS-high-slider .bx-wrapper .bx-pager.bx-default-pager a {background-color:#FDF405; border-radius:0; padding:4px 10px; height:0; opacity:0.6;}
+/*.PRS-high-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.PRS-high-slider .bx-wrapper .bx-pager.bx-default-pager a.active {background-color:#FDF405; opacity:1;}*/
+.PRS-high-regis-btn { /*padding:5px; */position:absolute; right:222px; bottom:-3px; cursor:pointer;
+transition:all 0.5s ease-in-out;
+-webkit-transition:all 0.5s ease-in-out;
+-moz-transition:all 0.5s ease-in-out;}
+.PRS-high-regis-btn:hover {background-color:#136441}
+.PRS-high-regis-btn:active { box-shadow:none; right:219px; bottom:-6px;}
+.PRS-high-regis-btn.collapsed { bottom:93%; 
+box-shadow:-3px -3px 3px rgba(0,0,0,0.45);
+transform:rotate(1260deg);
+-webkit-transform:rotate(1260deg);
+-moz-transform:rotate(1260deg);}
+.PRS-brand-wShare { background-color:#fff; margin-bottom:20px;}
+.PRS-brand-wShare .verti-mid-inner { height:64px;}
+.tail-yellow { background:url(../img/yellowTail.png) no-repeat right top; height:64px; padding-right:56px; display:inline-block; }
+.tail-yellow > * { background-color:#FFEF01; height:64px; padding:20px 50px 0px 20px; font-size:20px; margin:0;}
